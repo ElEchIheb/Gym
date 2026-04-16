@@ -7,7 +7,7 @@
         "fr": "Curl biceps",
         "ar": "ثني البايسبس"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Bicep+Curl",
+      "image": "https://wger.de/media/exercise-images/81/Biceps-curl-1.png",
       "description": {
         "en": "Curl the dumbbells up with control and lower them slowly.",
         "fr": "Montez les haltères avec contrôle puis redescendez lentement.",
@@ -38,7 +38,7 @@
         "fr": "Curl marteau",
         "ar": "ثني المطرقة"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Hammer+Curl",
+      "image": "https://wger.de/media/exercise-images/86/Bicep-hammer-curl-1.png",
       "description": {
         "en": "Keep your palms facing each other to train biceps and forearms.",
         "fr": "Gardez les paumes face à face pour travailler biceps et avant-bras.",
@@ -69,7 +69,7 @@
         "fr": "Curl concentration",
         "ar": "ثني التركيز"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Concentration+Curl",
+      "image": "https://wger.de/media/exercise-images/1649/441cc0e5-eca2-4828-8b0a-a0e554abb2ff.jpg",
       "description": {
         "en": "A seated curl that helps you focus on one arm at a time.",
         "fr": "Un curl assis qui aide à se concentrer sur un bras à la fois.",
@@ -100,7 +100,7 @@
         "fr": "Curl incliné avec haltères",
         "ar": "ثني دمبل على بنش مائل"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Incline+Dumbbell+Curl",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=INCLINE%20DUMBBELL%20CURL",
       "description": {
         "en": "The incline bench gives your biceps a longer stretch.",
         "fr": "Le banc incliné donne un étirement plus long aux biceps.",
@@ -131,7 +131,7 @@
         "fr": "Curl inversé",
         "ar": "ثني عكسي"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Reverse+Curl",
+      "image": "https://wger.de/media/exercise-images/1190/c05818bf-1c81-46df-9f24-42e354265388.png",
       "description": {
         "en": "Use an overhand grip to hit the biceps and forearms together.",
         "fr": "Utilisez une prise en pronation pour travailler biceps et avant-bras ensemble.",
@@ -154,6 +154,244 @@
           "عد إلى البداية بتحكم."
         ]
       }
+    },
+    {
+      "id": "barbell-curl",
+      "name": {
+        "en": "Barbell Curl",
+        "fr": "Curl à la barre",
+        "ar": "ثني البار للبايسبس"
+      },
+      "image": "https://wger.de/media/exercise-images/74/Bicep-curls-1.png",
+      "description": {
+        "en": "A classic standing curl that trains both biceps evenly with a barbell.",
+        "fr": "Un curl classique debout qui travaille les deux biceps de façon équilibrée avec une barre.",
+        "ar": "تمرين كلاسيكي واقف يستهدف عضلتي البايسبس بالتساوي باستخدام البار."
+      },
+      "steps": {
+        "en": [
+          "Stand tall with the barbell at thigh level.",
+          "Keep your elbows close to your torso.",
+          "Curl the bar toward your shoulders without swinging.",
+          "Lower slowly until your arms are fully extended."
+        ],
+        "fr": [
+          "Tenez-vous droit avec la barre au niveau des cuisses.",
+          "Gardez les coudes près du buste.",
+          "Montez la barre vers les épaules sans élan.",
+          "Redescendez lentement jusqu'aux bras tendus."
+        ],
+        "ar": [
+          "قف مستقيمًا والبار عند مستوى الفخذين.",
+          "أبقِ المرفقين قريبين من الجذع.",
+          "ارفع البار نحو الكتفين من دون تأرجح.",
+          "اخفضه ببطء حتى تستقيم الذراعان بالكامل."
+        ]
+      }
+    },
+    {
+      "id": "preacher-curl",
+      "name": {
+        "en": "Preacher Curl",
+        "fr": "Curl pupitre",
+        "ar": "ثني البايسبس على مقعد الواعظ"
+      },
+      "image": "https://wger.de/media/exercise-images/193/Preacher-curl-3-1.png",
+      "description": {
+        "en": "This curl isolates the biceps by fixing the upper arms on a preacher bench.",
+        "fr": "Ce curl isole les biceps en bloquant le haut des bras sur un pupitre.",
+        "ar": "يعزل هذا التمرين عضلة البايسبس عبر تثبيت أعلى الذراعين على مقعد الواعظ."
+      },
+      "steps": {
+        "en": [
+          "Set your upper arms on the preacher pad and grip the bar or handle.",
+          "Start with your arms almost straight.",
+          "Curl the weight toward your shoulders with control.",
+          "Lower slowly without lifting your elbows off the pad."
+        ],
+        "fr": [
+          "Placez le haut des bras sur le pupitre et saisissez la barre ou la poignée.",
+          "Commencez avec les bras presque tendus.",
+          "Montez la charge vers les épaules avec contrôle.",
+          "Redescendez lentement sans décoller les coudes du support."
+        ],
+        "ar": [
+          "ضع أعلى الذراعين على وسادة المقعد وأمسك البار أو المقبض.",
+          "ابدأ والذراعان شبه مستقيمتين.",
+          "اثنِ الوزن نحو الكتفين بتحكم.",
+          "اخفضه ببطء من دون رفع المرفقين عن الوسادة."
+        ]
+      }
+    },
+    {
+      "id": "cable-curl",
+      "name": {
+        "en": "Cable Curl",
+        "fr": "Curl à la poulie",
+        "ar": "ثني البايسبس بالكابل"
+      },
+      "image": "https://wger.de/media/exercise-images/129/Standing-biceps-curl-1.png",
+      "description": {
+        "en": "A cable curl keeps constant tension on the biceps through the whole range of motion.",
+        "fr": "Le curl à la poulie garde une tension constante sur les biceps pendant tout le mouvement.",
+        "ar": "يحافظ هذا التمرين على شد مستمر على عضلة البايسبس طوال الحركة."
+      },
+      "steps": {
+        "en": [
+          "Stand facing the low pulley and grab the handle or bar.",
+          "Keep your chest up and elbows by your sides.",
+          "Curl the handle toward your shoulders.",
+          "Return slowly until your arms are extended again."
+        ],
+        "fr": [
+          "Placez-vous face à la poulie basse et saisissez la poignée ou la barre.",
+          "Gardez la poitrine haute et les coudes près du corps.",
+          "Ramenez la poignée vers les épaules.",
+          "Revenez lentement jusqu'à l'extension des bras."
+        ],
+        "ar": [
+          "قف أمام البكرة السفلية وأمسك المقبض أو البار.",
+          "ارفع الصدر وأبقِ المرفقين بجانب الجسم.",
+          "اثنِ المقبض نحو الكتفين.",
+          "عد ببطء حتى تتمدد الذراعان من جديد."
+        ]
+      }
+    },
+    {
+      "id": "ez-bar-curl",
+      "name": {
+        "en": "EZ-Bar Curl",
+        "fr": "Curl à la barre EZ",
+        "ar": "ثني البايسبس ببار EZ"
+      },
+      "image": "https://wger.de/media/exercise-images/94/6dee2f60-aea2-4f2d-9bf6-aef50c4f9483.png",
+      "description": {
+        "en": "The EZ-bar curl reduces wrist strain while letting you load the biceps effectively.",
+        "fr": "Le curl à la barre EZ réduit la tension sur les poignets tout en chargeant bien les biceps.",
+        "ar": "يساعد بار EZ على تقليل الضغط على المعصم مع تدريب البايسبس بفعالية."
+      },
+      "steps": {
+        "en": [
+          "Hold the EZ-bar with a comfortable angled grip.",
+          "Stand tall with the bar resting in front of your thighs.",
+          "Curl the bar up while keeping your elbows still.",
+          "Lower under control back to the starting position."
+        ],
+        "fr": [
+          "Tenez la barre EZ avec une prise confortable.",
+          "Restez droit avec la barre devant les cuisses.",
+          "Montez la barre en gardant les coudes fixes.",
+          "Redescendez avec contrôle jusqu'au départ."
+        ],
+        "ar": [
+          "أمسك بار EZ بقبضة مريحة مائلة.",
+          "قف مستقيمًا والبار أمام الفخذين.",
+          "ارفع البار مع تثبيت المرفقين.",
+          "اخفضه بتحكم حتى تعود لوضع البداية."
+        ]
+      }
+    },
+    {
+      "id": "spider-curl",
+      "name": {
+        "en": "Spider Curl",
+        "fr": "Spider curl",
+        "ar": "سبايدر كيرل"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SPIDER%20CURL",
+      "description": {
+        "en": "This variation keeps the arms hanging forward so the biceps do more of the work.",
+        "fr": "Cette variante garde les bras suspendus vers l'avant pour faire davantage travailler les biceps.",
+        "ar": "يبقي هذا التمرين الذراعين متجهتين للأمام ليزيد عزل عضلة البايسبس."
+      },
+      "steps": {
+        "en": [
+          "Lie chest-down on an incline bench with your arms hanging freely.",
+          "Hold the weights with your palms facing forward.",
+          "Curl the weights up without moving your shoulders.",
+          "Lower slowly until your arms are long again."
+        ],
+        "fr": [
+          "Allongez-vous poitrine contre un banc incliné, bras pendants.",
+          "Tenez les poids avec les paumes vers l'avant.",
+          "Montez les poids sans bouger les épaules.",
+          "Redescendez lentement jusqu'à l'allongement complet."
+        ],
+        "ar": [
+          "استلقِ بصدرِك على مقعد مائل واترك الذراعين متدليتين.",
+          "أمسك الأوزان وراحة اليد للأمام.",
+          "اثنِ الأوزان من دون تحريك الكتفين.",
+          "اخفضها ببطء حتى تعود الذراعان لطولهما الكامل."
+        ]
+      }
+    },
+    {
+      "id": "zottman-curl",
+      "name": {
+        "en": "Zottman Curl",
+        "fr": "Curl Zottman",
+        "ar": "زوتمن كيرل"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=ZOTTMAN%20CURL",
+      "description": {
+        "en": "The Zottman curl trains the biceps on the way up and the forearms on the way down.",
+        "fr": "Le curl Zottman travaille les biceps à la montée et les avant-bras à la descente.",
+        "ar": "يعمل تمرين زوتمن على البايسبس في الصعود والساعدين في النزول."
+      },
+      "steps": {
+        "en": [
+          "Start with dumbbells at your sides and palms facing forward.",
+          "Curl both dumbbells up to shoulder height.",
+          "Rotate your palms down at the top.",
+          "Lower the weights slowly with the overhand grip."
+        ],
+        "fr": [
+          "Commencez avec des haltères sur les côtés, paumes vers l'avant.",
+          "Montez les deux haltères jusqu'aux épaules.",
+          "Tournez les paumes vers le bas en haut du mouvement.",
+          "Redescendez lentement avec la prise pronation."
+        ],
+        "ar": [
+          "ابدأ بدمبلين على الجانبين وراحة اليد للأمام.",
+          "ارفع الدمبلين حتى مستوى الكتفين.",
+          "لف راحتي اليد إلى الأسفل في أعلى الحركة.",
+          "اخفض الوزن ببطء مع القبضة العلوية."
+        ]
+      }
+    },
+    {
+      "id": "machine-curl",
+      "name": {
+        "en": "Machine Curl",
+        "fr": "Curl à la machine",
+        "ar": "ثني البايسبس على الجهاز"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=MACHINE%20CURL",
+      "description": {
+        "en": "A machine curl guides the movement and helps you focus on squeezing the biceps.",
+        "fr": "Le curl à la machine guide le mouvement et aide à bien contracter les biceps.",
+        "ar": "يوجّه هذا الجهاز الحركة ليساعدك على التركيز على انقباض عضلة البايسبس."
+      },
+      "steps": {
+        "en": [
+          "Adjust the seat so your elbows line up with the machine pivot.",
+          "Grip the handles and keep your chest against the pad if there is one.",
+          "Curl the handles up until your biceps are fully squeezed.",
+          "Lower back with control without letting the weight slam down."
+        ],
+        "fr": [
+          "Réglez le siège pour aligner les coudes avec l'axe de la machine.",
+          "Saisissez les poignées et gardez la poitrine contre le support si besoin.",
+          "Montez les poignées jusqu'à une forte contraction des biceps.",
+          "Redescendez avec contrôle sans laisser la charge tomber."
+        ],
+        "ar": [
+          "اضبط المقعد حتى يصطف المرفقان مع محور الجهاز.",
+          "أمسك المقابض وأبقِ الصدر على الوسادة إن وُجدت.",
+          "اثنِ المقابض حتى تنقبض عضلة البايسبس بالكامل.",
+          "اخفضها بتحكم من دون إسقاط الوزن بسرعة."
+        ]
+      }
     }
   ],
   "triceps": [
@@ -164,7 +402,7 @@
         "fr": "Dip triceps",
         "ar": "ديب الترايسبس"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Tricep+Dip",
+      "image": "https://wger.de/media/exercise-images/83/Bench-dips-1.png",
       "description": {
         "en": "Lower and lift your body to work the back of the arms.",
         "fr": "Descendez et remontez le corps pour travailler l'arrière des bras.",
@@ -195,7 +433,7 @@
         "fr": "Extension triceps au-dessus de la tête",
         "ar": "تمديد الترايسبس فوق الرأس"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Overhead+Tricep+Extension",
+      "image": "https://wger.de/media/exercise-images/1519/fab7f641-27d4-40b5-8edd-1a0a137bfd94.gif",
       "description": {
         "en": "A simple overhead move for stretching and strengthening the triceps.",
         "fr": "Un mouvement simple au-dessus de la tête pour étirer et renforcer les triceps.",
@@ -226,7 +464,7 @@
         "fr": "Pushdown triceps",
         "ar": "ضغط الترايسبس للأسفل"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Tricep+Pushdown",
+      "image": "https://wger.de/media/exercise-images/1185/c5ca283d-8958-4fd8-9d59-a3f52a3ac66b.jpg",
       "description": {
         "en": "Push the handle down and squeeze the triceps at the bottom.",
         "fr": "Poussez la poignée vers le bas et contractez les triceps en bas.",
@@ -257,7 +495,7 @@
         "fr": "Pompes prise serrée",
         "ar": "ضغط بقبضة ضيقة"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Close-Grip+Push-Up",
+      "image": "https://wger.de/media/exercise-images/1086/b2ee8d9b-0480-4992-8494-c223b37c2696.jpg",
       "description": {
         "en": "A push-up variation that makes the triceps work harder.",
         "fr": "Une variante des pompes qui fait travailler davantage les triceps.",
@@ -288,7 +526,7 @@
         "fr": "Extension couchée triceps",
         "ar": "تمديد ترايسبس مستلقيًا"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Skull+Crusher",
+      "image": "https://wger.de/media/exercise-images/84/Lying-close-grip-triceps-press-to-chin-1.png",
       "description": {
         "en": "Lower the weights toward your forehead, then extend back up.",
         "fr": "Descendez les poids vers le front puis tendez de nouveau les bras.",
@@ -311,6 +549,244 @@
           "مد الذراعين حتى يعود الوزن للأعلى."
         ]
       }
+    },
+    {
+      "id": "close-grip-bench-press",
+      "name": {
+        "en": "Close-Grip Bench Press",
+        "fr": "Développé couché prise serrée",
+        "ar": "بنش برس بقبضة ضيقة"
+      },
+      "image": "https://wger.de/media/exercise-images/1897/9abec4e4-90ba-44f9-9e6e-5e35f7273078.png",
+      "description": {
+        "en": "This press emphasizes the triceps by using a narrower grip on the barbell.",
+        "fr": "Ce développé met l'accent sur les triceps grâce à une prise plus serrée sur la barre.",
+        "ar": "يركّز هذا التمرين على عضلة الترايسبس باستخدام قبضة أضيق على البار."
+      },
+      "steps": {
+        "en": [
+          "Lie on a flat bench and grip the bar just inside shoulder width.",
+          "Unrack the bar and lower it toward your lower chest.",
+          "Keep your elbows close to your sides as you press up.",
+          "Lock out under control and repeat."
+        ],
+        "fr": [
+          "Allongez-vous sur un banc plat avec une prise légèrement plus serrée que les épaules.",
+          "Décrochez la barre et descendez-la vers le bas de la poitrine.",
+          "Gardez les coudes proches du corps en poussant.",
+          "Terminez sous contrôle puis recommencez."
+        ],
+        "ar": [
+          "استلقِ على مقعد مسطح وأمسك البار بقبضة أضيق قليلًا من الكتفين.",
+          "ارفع البار من الحامل وأنزله نحو أسفل الصدر.",
+          "أبقِ المرفقين قريبين من الجسم أثناء الدفع.",
+          "أكمل التمديد بتحكم ثم كرر."
+        ]
+      }
+    },
+    {
+      "id": "rope-pushdown",
+      "name": {
+        "en": "Rope Pushdown",
+        "fr": "Pushdown à la corde",
+        "ar": "ضغط الحبل للترايسبس"
+      },
+      "image": "https://wger.de/media/exercise-images/1900/a8243245-8f8f-4e2b-93ca-694d416cb11d.png",
+      "description": {
+        "en": "The rope pushdown targets the triceps while allowing a strong squeeze at the bottom.",
+        "fr": "Le pushdown à la corde cible les triceps et permet une forte contraction en bas.",
+        "ar": "يستهدف هذا التمرين عضلة الترايسبس مع إمكانية شد قوي في نهاية الحركة."
+      },
+      "steps": {
+        "en": [
+          "Attach a rope to a high pulley and grip both ends.",
+          "Stand tall with your elbows tucked by your ribs.",
+          "Press the rope down and slightly apart at the bottom.",
+          "Return slowly until your forearms are bent again."
+        ],
+        "fr": [
+          "Fixez une corde sur une poulie haute et saisissez chaque extrémité.",
+          "Tenez-vous droit avec les coudes collés aux côtes.",
+          "Poussez la corde vers le bas en l'écartant légèrement en bas.",
+          "Revenez lentement jusqu'à la flexion des avant-bras."
+        ],
+        "ar": [
+          "ثبّت الحبل في بكرة علوية وأمسك الطرفين.",
+          "قف مستقيمًا وأبقِ المرفقين ملاصقين للأضلاع.",
+          "ادفع الحبل إلى الأسفل وافتحه قليلًا في النهاية.",
+          "عد ببطء حتى تنثني الساعدين من جديد."
+        ]
+      }
+    },
+    {
+      "id": "tricep-kickback",
+      "name": {
+        "en": "Tricep Kickback",
+        "fr": "Kickback triceps",
+        "ar": "رفسة الترايسبس"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=TRICEP%20KICKBACK",
+      "description": {
+        "en": "A kickback isolates the triceps by extending the elbow behind the body.",
+        "fr": "Le kickback isole les triceps en tendant le coude derrière le corps.",
+        "ar": "يعزل هذا التمرين عضلة الترايسبس عبر فرد المرفق خلف الجسم."
+      },
+      "steps": {
+        "en": [
+          "Hinge forward with a flat back and hold a dumbbell in one hand.",
+          "Bring your upper arm close to your torso.",
+          "Extend your elbow until your arm is straight behind you.",
+          "Pause, then return slowly to the bent-arm position."
+        ],
+        "fr": [
+          "Penchez-vous en avant avec le dos plat et un haltère dans une main.",
+          "Gardez le haut du bras proche du buste.",
+          "Tendez le coude jusqu'à avoir le bras droit derrière vous.",
+          "Marquez une pause puis revenez lentement."
+        ],
+        "ar": [
+          "انحنِ للأمام مع ظهر مستقيم وامسك دمبل بيد واحدة.",
+          "أبقِ أعلى الذراع قريبًا من الجذع.",
+          "افرد المرفق حتى تستقيم الذراع خلفك.",
+          "توقف لحظة ثم عد ببطء إلى وضع الثني."
+        ]
+      }
+    },
+    {
+      "id": "french-press",
+      "name": {
+        "en": "French Press",
+        "fr": "French press",
+        "ar": "فرنش برس"
+      },
+      "image": "https://wger.de/media/exercise-images/50/695ced5c-9961-4076-add2-cb250d01089e.png",
+      "description": {
+        "en": "The French press is a triceps extension that loads the long head through a deep stretch.",
+        "fr": "Le French press est une extension triceps qui étire fortement le long faisceau.",
+        "ar": "الفرنش برس هو تمرين تمديد للترايسبس يمنح الرأس الطويلة تمددًا كبيرًا."
+      },
+      "steps": {
+        "en": [
+          "Sit or lie down holding an EZ-bar or dumbbell above your head.",
+          "Keep your elbows pointed forward.",
+          "Lower the weight behind your head by bending your elbows.",
+          "Extend back up until your arms are straight."
+        ],
+        "fr": [
+          "Asseyez-vous ou allongez-vous avec une barre EZ ou un haltère au-dessus de la tête.",
+          "Gardez les coudes dirigés vers l'avant.",
+          "Descendez la charge derrière la tête en pliant les coudes.",
+          "Retendez les bras pour revenir en haut."
+        ],
+        "ar": [
+          "اجلس أو استلقِ ممسكًا ببار EZ أو دمبل فوق الرأس.",
+          "وجّه المرفقين إلى الأمام.",
+          "أنزل الوزن خلف الرأس عبر ثني المرفقين.",
+          "افرد الذراعين للعودة إلى الأعلى."
+        ]
+      }
+    },
+    {
+      "id": "single-arm-pushdown",
+      "name": {
+        "en": "Single-Arm Pushdown",
+        "fr": "Pushdown un bras",
+        "ar": "ضغط الترايسبس بذراع واحدة"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SINGLE-ARM%20PUSHDOWN",
+      "description": {
+        "en": "Using one arm at a time helps you train each triceps side evenly and with control.",
+        "fr": "Travailler un bras à la fois permet de renforcer chaque triceps de façon équilibrée.",
+        "ar": "يساعد العمل بذراع واحدة على تدريب كل جانب من الترايسبس بتوازن وتحكم."
+      },
+      "steps": {
+        "en": [
+          "Attach a single handle to a high pulley.",
+          "Stand upright and keep your elbow fixed near your side.",
+          "Press the handle down until your arm is straight.",
+          "Return slowly and complete the reps before switching arms."
+        ],
+        "fr": [
+          "Fixez une poignée simple à une poulie haute.",
+          "Restez droit avec le coude fixe près du corps.",
+          "Poussez la poignée vers le bas jusqu'au bras tendu.",
+          "Revenez lentement et terminez avant de changer de bras."
+        ],
+        "ar": [
+          "ثبّت مقبضًا فرديًا في بكرة علوية.",
+          "قف مستقيمًا وثبّت المرفق بجانب الجسم.",
+          "ادفع المقبض إلى الأسفل حتى تستقيم الذراع.",
+          "عد ببطء وأكمل التكرارات قبل تبديل الذراع."
+        ]
+      }
+    },
+    {
+      "id": "bench-dips",
+      "name": {
+        "en": "Bench Dips",
+        "fr": "Dips sur banc",
+        "ar": "ديب على المقعد"
+      },
+      "image": "https://wger.de/media/exercise-images/83/Bench-dips-1.png",
+      "description": {
+        "en": "Bench dips use your bodyweight to challenge the triceps with a simple setup.",
+        "fr": "Les dips sur banc utilisent le poids du corps pour solliciter les triceps simplement.",
+        "ar": "يعتمد هذا التمرين على وزن الجسم لاستهداف الترايسبس بطريقة بسيطة."
+      },
+      "steps": {
+        "en": [
+          "Place your hands on a bench behind you and extend your legs forward.",
+          "Slide your hips off the bench.",
+          "Bend your elbows to lower your body.",
+          "Press back up until your arms are straight again."
+        ],
+        "fr": [
+          "Placez les mains sur un banc derrière vous et allongez les jambes devant.",
+          "Faites glisser les hanches hors du banc.",
+          "Pliez les coudes pour descendre le corps.",
+          "Poussez pour remonter jusqu'aux bras tendus."
+        ],
+        "ar": [
+          "ضع يديك على مقعد خلفك ومدّ الرجلين إلى الأمام.",
+          "حرّك الوركين خارج المقعد.",
+          "اثنِ المرفقين لخفض الجسم.",
+          "ادفع للأعلى حتى تستقيم الذراعان من جديد."
+        ]
+      }
+    },
+    {
+      "id": "machine-tricep-extension",
+      "name": {
+        "en": "Machine Tricep Extension",
+        "fr": "Extension triceps à la machine",
+        "ar": "تمديد الترايسبس على الجهاز"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=MACHINE%20TRICEP%20EXTENSION",
+      "description": {
+        "en": "A machine triceps extension gives you a stable path to focus on full elbow extension.",
+        "fr": "La machine d'extension triceps offre un trajet stable pour bien finir l'extension du coude.",
+        "ar": "يوفر هذا الجهاز مسارًا ثابتًا يساعدك على التركيز على فرد المرفق بالكامل."
+      },
+      "steps": {
+        "en": [
+          "Adjust the machine so the elbow joint lines up with the pivot.",
+          "Grip the handles and keep your upper arms stable.",
+          "Extend the handles until your elbows are straight.",
+          "Return slowly while keeping tension on the triceps."
+        ],
+        "fr": [
+          "Réglez la machine pour aligner le coude avec l'axe.",
+          "Saisissez les poignées et gardez le haut des bras stable.",
+          "Poussez jusqu'à l'extension complète des coudes.",
+          "Revenez lentement en gardant la tension."
+        ],
+        "ar": [
+          "اضبط الجهاز حتى يصطف مفصل المرفق مع المحور.",
+          "أمسك المقابض وثبّت أعلى الذراعين.",
+          "مدّ المقابض حتى تستقيم المرافق بالكامل.",
+          "عد ببطء مع الحفاظ على الشد على الترايسبس."
+        ]
+      }
     }
   ],
   "chest": [
@@ -321,7 +797,7 @@
         "fr": "Pompe",
         "ar": "تمرين الضغط"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Push-Up",
+      "image": "https://wger.de/media/exercise-images/1551/a6a9e561-3965-45c6-9f2b-ee671e1a3a45.png",
       "description": {
         "en": "A classic bodyweight exercise for the chest, arms, and core.",
         "fr": "Un exercice classique au poids du corps pour la poitrine, les bras et le gainage.",
@@ -352,7 +828,7 @@
         "fr": "Développé couché",
         "ar": "بنش برس"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Bench+Press",
+      "image": "https://wger.de/media/exercise-images/192/Bench-press-1.png",
       "description": {
         "en": "Press the weight from your chest to build chest strength.",
         "fr": "Poussez la charge depuis la poitrine pour développer la force du torse.",
@@ -383,7 +859,7 @@
         "fr": "Développé incliné avec haltères",
         "ar": "ضغط دمبل مائل"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Incline+Dumbbell+Press",
+      "image": "https://wger.de/media/exercise-images/1277/9f3c7817-3e3d-417d-8b08-2c0a1aa5fe03.jpg",
       "description": {
         "en": "A simple pressing move that targets the upper chest.",
         "fr": "Un mouvement simple de poussée qui cible le haut des pectoraux.",
@@ -414,7 +890,7 @@
         "fr": "Écarté poitrine",
         "ar": "فتح صدر"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Chest+Fly",
+      "image": "https://wger.de/media/exercise-images/238/2fc242d3-5bdd-4f97-99bd-678adb8c96fc.png",
       "description": {
         "en": "Open the arms wide and bring them together with soft elbows.",
         "fr": "Ouvrez largement les bras puis rapprochez-les avec les coudes souples.",
@@ -445,7 +921,7 @@
         "fr": "Pompe déclinée",
         "ar": "ضغط مع رفع القدمين"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Decline+Push-Up",
+      "image": "https://wger.de/media/exercise-images/1112/81f40bee-4adf-4317-8476-1a87706e3031.png",
       "description": {
         "en": "Elevating the feet makes the upper chest work harder.",
         "fr": "Le fait de surélever les pieds fait davantage travailler le haut de la poitrine.",
@@ -468,6 +944,244 @@
           "ادفع للأعلى مع إبقاء الجسم مستقيمًا."
         ]
       }
+    },
+    {
+      "id": "flat-barbell-bench-press",
+      "name": {
+        "en": "Flat Barbell Bench Press",
+        "fr": "Développé couché barre",
+        "ar": "بنش برس بالبار على مقعد مسطح"
+      },
+      "image": "https://wger.de/media/exercise-images/192/Bench-press-1.png",
+      "description": {
+        "en": "This staple chest exercise lets you build pressing strength with a stable flat bench setup.",
+        "fr": "Ce mouvement de base développe la force de poussée avec un banc plat stable.",
+        "ar": "يُعد هذا التمرين من أساسيات الصدر لبناء قوة الدفع على مقعد مسطح."
+      },
+      "steps": {
+        "en": [
+          "Lie on a flat bench with your feet planted.",
+          "Grip the bar a little wider than shoulder width.",
+          "Lower the bar to the middle of your chest.",
+          "Press it back up until your arms are extended."
+        ],
+        "fr": [
+          "Allongez-vous sur un banc plat avec les pieds bien ancrés.",
+          "Saisissez la barre un peu plus large que les épaules.",
+          "Descendez la barre vers le milieu de la poitrine.",
+          "Poussez-la jusqu'à l'extension des bras."
+        ],
+        "ar": [
+          "استلقِ على مقعد مسطح مع تثبيت القدمين على الأرض.",
+          "أمسك البار بقبضة أوسع قليلًا من الكتفين.",
+          "أنزل البار إلى منتصف الصدر.",
+          "ادفعه للأعلى حتى تستقيم الذراعان."
+        ]
+      }
+    },
+    {
+      "id": "dumbbell-fly",
+      "name": {
+        "en": "Dumbbell Fly",
+        "fr": "Écarté haltères",
+        "ar": "تفتيح الصدر بالدمبل"
+      },
+      "image": "https://wger.de/media/exercise-images/238/2fc242d3-5bdd-4f97-99bd-678adb8c96fc.png",
+      "description": {
+        "en": "The dumbbell fly stretches the chest and teaches you to squeeze the pecs through a wide arc.",
+        "fr": "L'écarté haltères étire la poitrine et apprend à contracter les pectoraux sur une grande amplitude.",
+        "ar": "يساعد هذا التمرين على تمديد الصدر وعصر العضلة عبر قوس واسع من الحركة."
+      },
+      "steps": {
+        "en": [
+          "Lie on a bench with a dumbbell in each hand above your chest.",
+          "Keep a soft bend in your elbows.",
+          "Open your arms wide until you feel a chest stretch.",
+          "Bring the dumbbells back together over your chest."
+        ],
+        "fr": [
+          "Allongez-vous sur un banc avec un haltère dans chaque main au-dessus de la poitrine.",
+          "Gardez une légère flexion des coudes.",
+          "Ouvrez les bras jusqu'à sentir l'étirement des pectoraux.",
+          "Ramenez les haltères ensemble au-dessus de la poitrine."
+        ],
+        "ar": [
+          "استلقِ على مقعد وامسك دمبلًا في كل يد فوق الصدر.",
+          "حافظ على انثناء خفيف في المرفقين.",
+          "افتح الذراعين حتى تشعر بتمدد الصدر.",
+          "أعد الدمبلين معًا فوق الصدر."
+        ]
+      }
+    },
+    {
+      "id": "cable-fly",
+      "name": {
+        "en": "Cable Fly",
+        "fr": "Écarté à la poulie",
+        "ar": "تفتيح الصدر بالكابل"
+      },
+      "image": "https://wger.de/media/exercise-images/122/Incline-cable-flyes-1.png",
+      "description": {
+        "en": "Cable flyes keep tension on the chest from start to finish.",
+        "fr": "L'écarté à la poulie garde une tension continue sur les pectoraux.",
+        "ar": "يحافظ هذا التمرين على شد مستمر على عضلات الصدر طوال الحركة."
+      },
+      "steps": {
+        "en": [
+          "Stand between two pulleys with a handle in each hand.",
+          "Step forward slightly and brace your core.",
+          "Bring your hands together in front of your chest in a hugging motion.",
+          "Return slowly until your chest stretches again."
+        ],
+        "fr": [
+          "Placez-vous entre deux poulies avec une poignée dans chaque main.",
+          "Avancez légèrement un pied et gainez le buste.",
+          "Ramenez les mains devant la poitrine comme pour serrer quelqu'un.",
+          "Revenez lentement jusqu'à sentir l'étirement."
+        ],
+        "ar": [
+          "قف بين بكرتين وامسك مقبضًا في كل يد.",
+          "خذ خطوة صغيرة للأمام وشد الجذع.",
+          "اجمع اليدين أمام الصدر بحركة عناق.",
+          "عد ببطء حتى تشعر بتمدد الصدر مرة أخرى."
+        ]
+      }
+    },
+    {
+      "id": "pec-deck-machine",
+      "name": {
+        "en": "Pec Deck Machine",
+        "fr": "Pec deck",
+        "ar": "جهاز البيك ديك للصدر"
+      },
+      "image": "https://wger.de/media/exercise-images/98/Butterfly-machine-2.png",
+      "description": {
+        "en": "The pec deck isolates the chest with a guided machine path.",
+        "fr": "Le pec deck isole la poitrine grâce à un trajet guidé par la machine.",
+        "ar": "يعزل هذا الجهاز عضلات الصدر عبر مسار موجّه وثابت."
+      },
+      "steps": {
+        "en": [
+          "Adjust the seat so the handles line up with mid-chest.",
+          "Sit tall with your back against the pad.",
+          "Bring the handles together until your chest is fully squeezed.",
+          "Open back slowly with control."
+        ],
+        "fr": [
+          "Réglez le siège pour que les poignées arrivent à hauteur de poitrine.",
+          "Asseyez-vous droit, le dos contre le dossier.",
+          "Ramenez les poignées ensemble jusqu'à une forte contraction.",
+          "Ouvrez lentement avec contrôle."
+        ],
+        "ar": [
+          "اضبط المقعد حتى تصطف المقابض مع منتصف الصدر.",
+          "اجلس مستقيمًا وظهرك على الوسادة.",
+          "اجمع المقابض حتى ينقبض الصدر بالكامل.",
+          "افتح الذراعين ببطء وتحكم."
+        ]
+      }
+    },
+    {
+      "id": "incline-cable-fly",
+      "name": {
+        "en": "Incline Cable Fly",
+        "fr": "Écarté incliné à la poulie",
+        "ar": "تفتيح مائل بالكابل"
+      },
+      "image": "https://wger.de/media/exercise-images/122/Incline-cable-flyes-1.png",
+      "description": {
+        "en": "This incline variation targets the upper chest while keeping cable tension throughout.",
+        "fr": "Cette variante inclinée cible le haut des pectoraux avec une tension continue.",
+        "ar": "تستهدف هذه النسخة المائلة الجزء العلوي من الصدر مع شد مستمر بالكابل."
+      },
+      "steps": {
+        "en": [
+          "Set the bench to a low incline between two pulleys.",
+          "Start with the handles slightly below shoulder level.",
+          "Bring your hands together above your upper chest.",
+          "Lower back slowly until you feel a stretch."
+        ],
+        "fr": [
+          "Réglez le banc sur une faible inclinaison entre deux poulies.",
+          "Commencez avec les poignées légèrement sous les épaules.",
+          "Ramenez les mains ensemble au-dessus du haut de la poitrine.",
+          "Redescendez lentement jusqu'à l'étirement."
+        ],
+        "ar": [
+          "اضبط المقعد على ميل خفيف بين بكرتين.",
+          "ابدأ بالمقابض أسفل مستوى الكتفين قليلًا.",
+          "اجمع اليدين فوق أعلى الصدر.",
+          "أنزلها ببطء حتى تشعر بتمدد العضلة."
+        ]
+      }
+    },
+    {
+      "id": "chest-dip",
+      "name": {
+        "en": "Chest Dip",
+        "fr": "Dip poitrine",
+        "ar": "ديب للصدر"
+      },
+      "image": "https://wger.de/media/exercise-images/194/34600351-8b0b-4cb0-8daa-583537be15b0.png",
+      "description": {
+        "en": "Leaning slightly forward during dips shifts more work to the chest.",
+        "fr": "En se penchant légèrement en avant sur les dips, on sollicite davantage la poitrine.",
+        "ar": "يزيد الميل الخفيف للأمام أثناء الديب من عمل عضلات الصدر."
+      },
+      "steps": {
+        "en": [
+          "Grip the dip bars and lift yourself up.",
+          "Lean your torso slightly forward with your legs behind you.",
+          "Lower until your upper arms are near parallel to the floor.",
+          "Press back up while keeping the forward lean."
+        ],
+        "fr": [
+          "Saisissez les barres de dips et hissez-vous.",
+          "Penchez légèrement le torse vers l'avant avec les jambes derrière.",
+          "Descendez jusqu'à ce que les bras soient presque parallèles au sol.",
+          "Poussez pour remonter en gardant l'inclinaison."
+        ],
+        "ar": [
+          "أمسك متوازي الديب وارفَع جسمك.",
+          "أمل الجذع قليلًا إلى الأمام مع إبقاء الساقين خلفك.",
+          "انزل حتى تقترب العضدتان من التوازي مع الأرض.",
+          "ادفع للأعلى مع الحفاظ على الميل للأمام."
+        ]
+      }
+    },
+    {
+      "id": "low-cable-fly",
+      "name": {
+        "en": "Low Cable Fly",
+        "fr": "Écarté poulie basse",
+        "ar": "تفتيح بالكابل من الأسفل"
+      },
+      "image": "https://wger.de/media/exercise-images/122/Incline-cable-flyes-1.png",
+      "description": {
+        "en": "A low-to-high fly emphasizes the upper chest with a smooth cable path.",
+        "fr": "L'écarté de bas en haut met l'accent sur le haut de la poitrine avec une trajectoire fluide.",
+        "ar": "يركّز هذا التمرين من الأسفل إلى الأعلى على الجزء العلوي من الصدر."
+      },
+      "steps": {
+        "en": [
+          "Set both pulleys to the lowest position.",
+          "Hold the handles with your palms facing forward.",
+          "Lift your hands up and inward toward upper-chest height.",
+          "Return slowly to the starting stretch."
+        ],
+        "fr": [
+          "Réglez les deux poulies tout en bas.",
+          "Tenez les poignées, paumes vers l'avant.",
+          "Montez les mains vers le haut et l'intérieur jusqu'au haut de la poitrine.",
+          "Revenez lentement à la position étirée."
+        ],
+        "ar": [
+          "اضبط البكرتين على أدنى مستوى.",
+          "أمسك المقابض وراحة اليد للأمام.",
+          "ارفع اليدين إلى الأعلى والداخل حتى مستوى أعلى الصدر.",
+          "عد ببطء إلى وضع التمدد."
+        ]
+      }
     }
   ],
   "back": [
@@ -478,7 +1192,7 @@
         "fr": "Rowing penché",
         "ar": "تجديف منحني"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Bent-Over+Row",
+      "image": "https://wger.de/media/exercise-images/81/a751a438-ae2d-4751-8d61-cef0e9292174.png",
       "description": {
         "en": "Pull the weights toward your waist to train the upper back.",
         "fr": "Tirez les poids vers la taille pour travailler le haut du dos.",
@@ -509,7 +1223,7 @@
         "fr": "Tirage vertical",
         "ar": "سحب علوي"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Lat+Pulldown",
+      "image": "https://wger.de/media/exercise-images/158/02e8a7c3-dc67-434e-a4bc-77fdecf84b49.webp",
       "description": {
         "en": "A cable pull that targets the lats and middle back.",
         "fr": "Un tirage à la poulie qui cible les dorsaux et le milieu du dos.",
@@ -540,7 +1254,7 @@
         "fr": "Rowing assis à la poulie",
         "ar": "تجديف بالكابل جالسًا"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Seated+Cable+Row",
+      "image": "https://wger.de/media/exercise-images/1117/e74255c0-67a0-4309-b78d-2d79e6ff8c11.png",
       "description": {
         "en": "Pull the handle to your torso while keeping your chest open.",
         "fr": "Tirez la poignée vers le torse en gardant la poitrine ouverte.",
@@ -571,7 +1285,7 @@
         "fr": "Maintien Superman",
         "ar": "ثبات سوبرمان"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Superman+Hold",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SUPERMAN%20HOLD",
       "description": {
         "en": "A floor exercise that strengthens the lower back and glutes.",
         "fr": "Un exercice au sol qui renforce le bas du dos et les fessiers.",
@@ -602,7 +1316,7 @@
         "fr": "Soulevé de terre avec haltères",
         "ar": "ديدليفت بالدمبل"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Dumbbell+Deadlift",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=DUMBBELL%20DEADLIFT",
       "description": {
         "en": "Hinge from the hips to work the back, glutes, and hamstrings.",
         "fr": "Pliez aux hanches pour travailler le dos, les fessiers et l'arrière des jambes.",
@@ -625,6 +1339,244 @@
           "ادفع بقدميك للعودة إلى الوقوف."
         ]
       }
+    },
+    {
+      "id": "pull-up",
+      "name": {
+        "en": "Pull-Up",
+        "fr": "Traction",
+        "ar": "عقلة"
+      },
+      "image": "https://wger.de/media/exercise-images/475/b0554016-16fd-4dbe-be47-a2a17d16ae0e.jpg",
+      "description": {
+        "en": "The pull-up builds upper-back and arm strength using your bodyweight.",
+        "fr": "La traction développe le haut du dos et les bras avec le poids du corps.",
+        "ar": "يبني هذا التمرين قوة الظهر العلوي والذراعين باستخدام وزن الجسم."
+      },
+      "steps": {
+        "en": [
+          "Grab the bar with an overhand grip.",
+          "Hang with your body steady and shoulders engaged.",
+          "Pull your chest toward the bar.",
+          "Lower with control to a full hang."
+        ],
+        "fr": [
+          "Saisissez la barre en prise pronation.",
+          "Suspendez-vous avec le corps stable et les épaules engagées.",
+          "Tirez la poitrine vers la barre.",
+          "Redescendez avec contrôle jusqu'à la suspension complète."
+        ],
+        "ar": [
+          "أمسك البار بقبضة علوية.",
+          "تعلّق مع ثبات الجسم وتنشيط الكتفين.",
+          "اسحب صدرك نحو البار.",
+          "انزل بتحكم حتى التعليق الكامل."
+        ]
+      }
+    },
+    {
+      "id": "t-bar-row",
+      "name": {
+        "en": "T-Bar Row",
+        "fr": "Rowing T-bar",
+        "ar": "تجديف تي بار"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=T-BAR%20ROW",
+      "description": {
+        "en": "The T-bar row loads the mid-back heavily while keeping a strong pulling path.",
+        "fr": "Le rowing T-bar charge fortement le milieu du dos avec une trajectoire de tirage solide.",
+        "ar": "يوفر هذا التمرين حملاً قويًا لمنتصف الظهر مع مسار سحب ثابت."
+      },
+      "steps": {
+        "en": [
+          "Stand over the T-bar with your hips hinged.",
+          "Grab the handle and brace your core.",
+          "Row the weight toward your lower chest.",
+          "Lower it back without rounding your spine."
+        ],
+        "fr": [
+          "Placez-vous au-dessus de la T-bar en charnière de hanches.",
+          "Saisissez la poignée et gainez le tronc.",
+          "Tirez la charge vers le bas de la poitrine.",
+          "Redescendez sans arrondir le dos."
+        ],
+        "ar": [
+          "قف فوق جهاز التي بار مع انحناء من الورك.",
+          "أمسك المقبض وشد عضلات الجذع.",
+          "اسحب الوزن نحو أسفل الصدر.",
+          "أنزله من دون تقويس العمود الفقري."
+        ]
+      }
+    },
+    {
+      "id": "single-arm-dumbbell-row",
+      "name": {
+        "en": "Single-Arm Dumbbell Row",
+        "fr": "Rowing un bras avec haltère",
+        "ar": "تجديف دمبل بذراع واحدة"
+      },
+      "image": "https://wger.de/media/exercise-images/1186/1987a039-cf35-437e-bbdc-40c53dd7d053.jpg",
+      "description": {
+        "en": "This row helps you train each side of the back evenly and with a long range of motion.",
+        "fr": "Ce rowing permet de travailler chaque côté du dos de manière équilibrée et ample.",
+        "ar": "يساعد هذا التمرين على تدريب كل جانب من الظهر بتوازن ومدى حركة واسع."
+      },
+      "steps": {
+        "en": [
+          "Place one knee and one hand on a bench for support.",
+          "Hold the dumbbell with the free hand and keep your back flat.",
+          "Row the dumbbell toward your hip.",
+          "Lower it slowly until your arm hangs fully."
+        ],
+        "fr": [
+          "Placez un genou et une main sur un banc pour vous stabiliser.",
+          "Tenez l'haltère avec la main libre et gardez le dos plat.",
+          "Tirez l'haltère vers la hanche.",
+          "Redescendez lentement jusqu'au bras tendu."
+        ],
+        "ar": [
+          "ضع ركبة ويدًا على المقعد للدعم.",
+          "أمسك الدمبل باليد الحرة مع إبقاء الظهر مستقيمًا.",
+          "اسحب الدمبل نحو الورك.",
+          "اخفضه ببطء حتى تتدلّى الذراع بالكامل."
+        ]
+      }
+    },
+    {
+      "id": "face-pull",
+      "name": {
+        "en": "Face Pull",
+        "fr": "Face pull",
+        "ar": "سحب إلى الوجه"
+      },
+      "image": "https://wger.de/media/exercise-images/1732/d13b9adb-968e-4f73-95e6-b16690bcf616.jpg",
+      "description": {
+        "en": "Face pulls strengthen the upper back and rear shoulders while improving posture.",
+        "fr": "Le face pull renforce le haut du dos et l'arrière des épaules tout en améliorant la posture.",
+        "ar": "يقوي هذا التمرين أعلى الظهر وخلف الكتفين ويساعد على تحسين الوضعية."
+      },
+      "steps": {
+        "en": [
+          "Set a rope at upper-chest or face height.",
+          "Grab the rope with your thumbs pointing behind you.",
+          "Pull the rope toward your face while opening your elbows.",
+          "Return slowly without letting your shoulders roll forward."
+        ],
+        "fr": [
+          "Placez une corde à hauteur du haut de poitrine ou du visage.",
+          "Saisissez-la avec les pouces vers l'arrière.",
+          "Tirez la corde vers le visage en ouvrant les coudes.",
+          "Revenez lentement sans laisser les épaules partir en avant."
+        ],
+        "ar": [
+          "ثبّت الحبل عند مستوى أعلى الصدر أو الوجه.",
+          "أمسك الحبل مع توجيه الإبهامين للخلف.",
+          "اسحب الحبل نحو الوجه مع فتح المرفقين.",
+          "عد ببطء من دون تدوير الكتفين للأمام."
+        ]
+      }
+    },
+    {
+      "id": "deadlift",
+      "name": {
+        "en": "Deadlift",
+        "fr": "Soulevé de terre",
+        "ar": "ديدليفت"
+      },
+      "image": "https://wger.de/media/exercise-images/184/1709c405-620a-4d07-9658-fade2b66a2df.jpeg",
+      "description": {
+        "en": "The deadlift is a powerful full-body pull that emphasizes the posterior chain.",
+        "fr": "Le soulevé de terre est un tirage complet très efficace pour la chaîne postérieure.",
+        "ar": "الديدليفت هو تمرين سحب قوي لكامل الجسم ويركز على السلسلة الخلفية."
+      },
+      "steps": {
+        "en": [
+          "Stand with the bar over the middle of your feet.",
+          "Push your hips back and grip the bar with a flat back.",
+          "Drive through the floor to stand tall with the bar.",
+          "Lower it by hinging at the hips first, then bending the knees."
+        ],
+        "fr": [
+          "Placez la barre au-dessus du milieu des pieds.",
+          "Reculez les hanches et saisissez la barre avec le dos plat.",
+          "Poussez dans le sol pour vous redresser avec la barre.",
+          "Redescendez en reculant d'abord les hanches puis en pliant les genoux."
+        ],
+        "ar": [
+          "ضع البار فوق منتصف القدمين.",
+          "ادفع الوركين للخلف وأمسك البار مع ظهر مستقيم.",
+          "ادفع بالأرض لتقف مستقيمًا مع البار.",
+          "أنزل البار بإرجاع الوركين أولًا ثم ثني الركبتين."
+        ]
+      }
+    },
+    {
+      "id": "hyperextension",
+      "name": {
+        "en": "Hyperextension",
+        "fr": "Hyperextension",
+        "ar": "تمديد أسفل الظهر"
+      },
+      "image": "https://wger.de/media/exercise-images/128/Hyperextensions-1.png",
+      "description": {
+        "en": "Hyperextensions strengthen the lower back, glutes, and hamstrings.",
+        "fr": "Les hyperextensions renforcent le bas du dos, les fessiers et les ischio-jambiers.",
+        "ar": "يقوي هذا التمرين أسفل الظهر والعضلات الخلفية والفخذين الخلفيين."
+      },
+      "steps": {
+        "en": [
+          "Set yourself on the hyperextension bench with your hips supported.",
+          "Cross your arms or hold a plate close to your chest.",
+          "Lower your torso until you feel a stretch.",
+          "Raise back up until your body forms a straight line."
+        ],
+        "fr": [
+          "Installez-vous sur le banc à lombaires avec les hanches bien placées.",
+          "Croisez les bras ou tenez un disque contre la poitrine.",
+          "Descendez le buste jusqu'à sentir l'étirement.",
+          "Remontez jusqu'à former une ligne droite."
+        ],
+        "ar": [
+          "ثبت نفسك على جهاز الهايبر إكستنشن مع دعم الوركين.",
+          "ضع الذراعين متقاطعتين أو أمسك قرصًا قرب الصدر.",
+          "أنزل الجذع حتى تشعر بتمدد.",
+          "ارفعه حتى يصبح الجسم في خط مستقيم."
+        ]
+      }
+    },
+    {
+      "id": "rack-pull",
+      "name": {
+        "en": "Rack Pull",
+        "fr": "Rack pull",
+        "ar": "راك بول"
+      },
+      "image": "https://wger.de/media/exercise-images/161/Dead-lifts-2.png",
+      "description": {
+        "en": "The rack pull shortens the deadlift range so you can overload the upper back and hips.",
+        "fr": "Le rack pull réduit l'amplitude du soulevé de terre pour surcharger le haut du dos et les hanches.",
+        "ar": "يقصّر هذا التمرين مدى حركة الديدليفت لزيادة الحمل على أعلى الظهر والوركين."
+      },
+      "steps": {
+        "en": [
+          "Set the bar on safety pins just below or above knee height.",
+          "Stand close and grip the bar with a flat back.",
+          "Drive your hips through to stand tall.",
+          "Lower the bar back to the pins under control."
+        ],
+        "fr": [
+          "Placez la barre sur des supports juste sous ou au-dessus des genoux.",
+          "Placez-vous près de la barre et saisissez-la avec le dos plat.",
+          "Poussez les hanches vers l'avant pour vous redresser.",
+          "Reposez la barre sur les supports avec contrôle."
+        ],
+        "ar": [
+          "ضع البار على دعامات الأمان أسفل الركبتين أو أعلاهما قليلًا.",
+          "قف قريبًا من البار وأمسكه مع ظهر مستقيم.",
+          "ادفع الوركين للأمام حتى تقف مستقيمًا.",
+          "أنزل البار إلى الدعامات بتحكم."
+        ]
+      }
     }
   ],
   "shoulders": [
@@ -635,7 +1587,7 @@
         "fr": "Développé épaules",
         "ar": "ضغط كتف"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Shoulder+Press",
+      "image": "https://wger.de/media/exercise-images/123/dumbbell-shoulder-press-large-1.png",
       "description": {
         "en": "Press the weights overhead to build strong shoulders.",
         "fr": "Poussez les poids au-dessus de la tête pour renforcer les épaules.",
@@ -666,7 +1618,7 @@
         "fr": "Élévation latérale",
         "ar": "رفع جانبي"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Lateral+Raise",
+      "image": "https://wger.de/media/exercise-images/148/lateral-dumbbell-raises-large-2.png",
       "description": {
         "en": "Lift the arms out to the side for the side delts.",
         "fr": "Levez les bras sur les côtés pour cibler les épaules latérales.",
@@ -697,7 +1649,7 @@
         "fr": "Élévation frontale",
         "ar": "رفع أمامي"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Front+Raise",
+      "image": "https://wger.de/media/exercise-images/256/b7def5bc-2352-499b-b9e5-fff741003831.png",
       "description": {
         "en": "Raise the weights in front of you to hit the front delts.",
         "fr": "Levez les poids devant vous pour travailler l'avant de l'épaule.",
@@ -728,7 +1680,7 @@
         "fr": "Oiseau arrière d'épaule",
         "ar": "فتح خلفي للكتف"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Rear+Delt+Fly",
+      "image": "https://wger.de/media/exercise-images/822/74affc0d-03b6-4f33-b5f4-a822a2615f68.png",
       "description": {
         "en": "Open the arms wide to train the back of the shoulders.",
         "fr": "Ouvrez largement les bras pour travailler l'arrière des épaules.",
@@ -759,7 +1711,7 @@
         "fr": "Développé Arnold",
         "ar": "ضغط أرنولد"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Arnold+Press",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=ARNOLD%20PRESS",
       "description": {
         "en": "Rotate the dumbbells as you press to hit more shoulder fibers.",
         "fr": "Faites tourner les haltères pendant la poussée pour solliciter davantage l'épaule.",
@@ -782,6 +1734,244 @@
           "اعكس الحركة ببطء أثناء النزول."
         ]
       }
+    },
+    {
+      "id": "overhead-barbell-press",
+      "name": {
+        "en": "Overhead Barbell Press",
+        "fr": "Développé militaire barre",
+        "ar": "ضغط كتف بالبار فوق الرأس"
+      },
+      "image": "https://wger.de/media/exercise-images/1893/7dbad19e-0616-41fd-9d7d-3e21649c0eea.png",
+      "description": {
+        "en": "This barbell press builds strong shoulders and triceps through a vertical pressing pattern.",
+        "fr": "Ce développé barre renforce les épaules et les triceps avec une poussée verticale.",
+        "ar": "يبني هذا التمرين أكتافًا قوية وترايسبس عبر حركة دفع عمودية."
+      },
+      "steps": {
+        "en": [
+          "Start with the bar at shoulder height.",
+          "Brace your core and squeeze your glutes.",
+          "Press the bar overhead in a straight line.",
+          "Lower it back to your shoulders with control."
+        ],
+        "fr": [
+          "Commencez avec la barre à hauteur des épaules.",
+          "Gainez le tronc et contractez les fessiers.",
+          "Poussez la barre au-dessus de la tête en ligne droite.",
+          "Redescendez-la vers les épaules avec contrôle."
+        ],
+        "ar": [
+          "ابدأ والبار عند مستوى الكتفين.",
+          "شد الجذع واضغط عضلات المؤخرة.",
+          "ادفع البار للأعلى بخط مستقيم فوق الرأس.",
+          "أعده إلى الكتفين ببطء وتحكم."
+        ]
+      }
+    },
+    {
+      "id": "push-press",
+      "name": {
+        "en": "Push Press",
+        "fr": "Push press",
+        "ar": "بوش برس"
+      },
+      "image": "https://wger.de/media/exercise-images/478/70a2d72c-a822-45f3-8de2-54ea85951b84.jpg",
+      "description": {
+        "en": "The push press uses a small leg drive to help you move heavier weight overhead.",
+        "fr": "Le push press utilise une légère impulsion des jambes pour envoyer plus lourd au-dessus de la tête.",
+        "ar": "يستخدم هذا التمرين دفعة صغيرة من الساقين لمساعدتك على رفع وزن أكبر فوق الرأس."
+      },
+      "steps": {
+        "en": [
+          "Hold the bar at shoulder height with your feet under your hips.",
+          "Dip slightly by bending your knees.",
+          "Drive through your legs and press the bar overhead.",
+          "Lower the bar back to your shoulders and reset."
+        ],
+        "fr": [
+          "Tenez la barre à hauteur d'épaules, pieds sous les hanches.",
+          "Fléchissez légèrement les genoux.",
+          "Poussez avec les jambes puis pressez la barre au-dessus de la tête.",
+          "Ramenez la barre aux épaules et recommencez."
+        ],
+        "ar": [
+          "أمسك البار عند مستوى الكتفين والقدمان تحت الوركين.",
+          "اخفض الجسم قليلًا عبر ثني الركبتين.",
+          "ادفع بالساقين ثم ارفع البار فوق الرأس.",
+          "أعد البار إلى الكتفين ثم كرر."
+        ]
+      }
+    },
+    {
+      "id": "upright-row",
+      "name": {
+        "en": "Upright Row",
+        "fr": "Tirage menton",
+        "ar": "سحب عمودي للذقن"
+      },
+      "image": "https://wger.de/media/exercise-images/693/05c91bd2-7814-40b6-b2d1-51ae942b8321.png",
+      "description": {
+        "en": "The upright row targets the shoulders and upper traps with a close pull up the torso.",
+        "fr": "Le tirage menton cible les épaules et les trapèzes avec une montée proche du buste.",
+        "ar": "يستهدف هذا التمرين الأكتاف والعضلات العليا عبر سحب قريب من الجسم."
+      },
+      "steps": {
+        "en": [
+          "Stand tall holding the bar or dumbbells in front of your thighs.",
+          "Keep the weight close to your body.",
+          "Pull upward until your elbows rise higher than your hands.",
+          "Lower slowly back to the start."
+        ],
+        "fr": [
+          "Tenez-vous droit avec la barre ou les haltères devant les cuisses.",
+          "Gardez la charge proche du corps.",
+          "Tirez vers le haut jusqu'à ce que les coudes dépassent les mains.",
+          "Redescendez lentement au départ."
+        ],
+        "ar": [
+          "قف مستقيمًا ممسكًا بالبار أو الدمبلين أمام الفخذين.",
+          "أبقِ الوزن قريبًا من الجسم.",
+          "اسحب لأعلى حتى ترتفع المرافق فوق اليدين.",
+          "اخفض الوزن ببطء إلى البداية."
+        ]
+      }
+    },
+    {
+      "id": "machine-shoulder-press",
+      "name": {
+        "en": "Machine Shoulder Press",
+        "fr": "Développé épaules à la machine",
+        "ar": "ضغط كتف على الجهاز"
+      },
+      "image": "https://wger.de/media/exercise-images/53/Shoulder-press-machine-2.png",
+      "description": {
+        "en": "A shoulder press machine offers support and a controlled overhead path.",
+        "fr": "La machine épaules apporte du soutien et une trajectoire contrôlée au-dessus de la tête.",
+        "ar": "يوفر جهاز ضغط الكتف دعمًا ومسارًا ثابتًا للحركة فوق الرأس."
+      },
+      "steps": {
+        "en": [
+          "Adjust the seat so the handles start near shoulder height.",
+          "Sit tall with your back against the pad.",
+          "Press the handles overhead until your arms are extended.",
+          "Lower back slowly to the starting position."
+        ],
+        "fr": [
+          "Réglez le siège pour que les poignées démarrent près des épaules.",
+          "Asseyez-vous droit avec le dos contre le dossier.",
+          "Poussez les poignées vers le haut jusqu'aux bras tendus.",
+          "Redescendez lentement au point de départ."
+        ],
+        "ar": [
+          "اضبط المقعد حتى تبدأ المقابض قرب مستوى الكتفين.",
+          "اجلس مستقيمًا وظهرك على الوسادة.",
+          "ادفع المقابض للأعلى حتى تستقيم الذراعان.",
+          "أنزلها ببطء إلى وضع البداية."
+        ]
+      }
+    },
+    {
+      "id": "cable-lateral-raise",
+      "name": {
+        "en": "Cable Lateral Raise",
+        "fr": "Élévation latérale à la poulie",
+        "ar": "رفع جانبي بالكابل"
+      },
+      "image": "https://wger.de/media/exercise-images/1378/7c1fcf34-fb7e-45e7-a0c1-51f296235315.jpg",
+      "description": {
+        "en": "The cable lateral raise keeps steady tension on the side delts.",
+        "fr": "L'élévation latérale à la poulie maintient une tension régulière sur les deltoïdes latéraux.",
+        "ar": "يحافظ هذا التمرين على شد ثابت على الجزء الجانبي من الكتف."
+      },
+      "steps": {
+        "en": [
+          "Stand beside a low pulley and hold the handle with the outside hand.",
+          "Keep a slight bend in your elbow.",
+          "Raise your arm out to the side until shoulder height.",
+          "Lower slowly without losing control."
+        ],
+        "fr": [
+          "Placez-vous à côté d'une poulie basse et tenez la poignée avec la main extérieure.",
+          "Gardez une légère flexion du coude.",
+          "Levez le bras sur le côté jusqu'à la hauteur d'épaule.",
+          "Redescendez lentement avec contrôle."
+        ],
+        "ar": [
+          "قف بجانب بكرة سفلية وأمسك المقبض باليد الخارجية.",
+          "حافظ على انثناء خفيف في المرفق.",
+          "ارفع الذراع إلى الجانب حتى مستوى الكتف.",
+          "اخفضها ببطء من دون فقدان التحكم."
+        ]
+      }
+    },
+    {
+      "id": "plate-front-raise",
+      "name": {
+        "en": "Plate Front Raise",
+        "fr": "Élévation frontale avec disque",
+        "ar": "رفع أمامي بقرص"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=PLATE%20FRONT%20RAISE",
+      "description": {
+        "en": "Holding a plate with both hands makes the front raise stable and simple to perform.",
+        "fr": "Tenir un disque à deux mains rend l'élévation frontale stable et facile à exécuter.",
+        "ar": "إمساك قرص باليدين يجعل الرفع الأمامي ثابتًا وسهل التنفيذ."
+      },
+      "steps": {
+        "en": [
+          "Hold a weight plate with both hands in front of your thighs.",
+          "Brace your core and soften your knees.",
+          "Raise the plate in front of you to shoulder height.",
+          "Lower it back down slowly."
+        ],
+        "fr": [
+          "Tenez un disque à deux mains devant les cuisses.",
+          "Gainez le tronc et gardez les genoux souples.",
+          "Montez le disque devant vous jusqu'à la hauteur d'épaule.",
+          "Redescendez-le lentement."
+        ],
+        "ar": [
+          "أمسك قرصًا بكلتا اليدين أمام الفخذين.",
+          "شد الجذع وحافظ على ثني خفيف في الركبتين.",
+          "ارفع القرص أمامك حتى مستوى الكتف.",
+          "أنزله ببطء إلى الأسفل."
+        ]
+      }
+    },
+    {
+      "id": "seated-dumbbell-press",
+      "name": {
+        "en": "Seated Dumbbell Press",
+        "fr": "Développé haltères assis",
+        "ar": "ضغط دمبل جالس"
+      },
+      "image": "https://wger.de/media/exercise-images/123/dumbbell-shoulder-press-large-1.png",
+      "description": {
+        "en": "Pressing dumbbells from a seated position helps you focus on the shoulders with less body sway.",
+        "fr": "Le développé haltères assis aide à cibler les épaules avec moins de balancement du corps.",
+        "ar": "يساعد ضغط الدمبل من وضع الجلوس على التركيز على الكتفين مع تقليل التأرجح."
+      },
+      "steps": {
+        "en": [
+          "Sit on a bench with back support and hold dumbbells at shoulder height.",
+          "Plant your feet firmly on the floor.",
+          "Press the dumbbells overhead until your arms are straight.",
+          "Lower them back to shoulder level with control."
+        ],
+        "fr": [
+          "Asseyez-vous sur un banc avec dossier et placez les haltères à hauteur d'épaules.",
+          "Gardez les pieds bien au sol.",
+          "Poussez les haltères au-dessus de la tête jusqu'aux bras tendus.",
+          "Redescendez à hauteur d'épaules avec contrôle."
+        ],
+        "ar": [
+          "اجلس على مقعد بظهر داعم وامسك الدمبلين عند مستوى الكتفين.",
+          "ثبت القدمين جيدًا على الأرض.",
+          "ادفع الدمبلين فوق الرأس حتى تستقيم الذراعان.",
+          "أعدهما إلى مستوى الكتفين بتحكم."
+        ]
+      }
     }
   ],
   "abs": [
@@ -792,7 +1982,7 @@
         "fr": "Crunch",
         "ar": "كرنش"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Crunch",
+      "image": "https://wger.de/media/exercise-images/91/Crunches-1.png",
       "description": {
         "en": "A basic ab movement for lifting the shoulders off the floor.",
         "fr": "Un mouvement simple pour les abdos où l'on soulève les épaules du sol.",
@@ -823,7 +2013,7 @@
         "fr": "Planche",
         "ar": "بلانك"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Plank",
+      "image": "https://wger.de/media/exercise-images/458/b7bd9c28-9f1d-4647-bd17-ab6a3adf5770.png",
       "description": {
         "en": "Hold a straight-body position to strengthen the whole core.",
         "fr": "Maintenez une position droite pour renforcer tout le centre du corps.",
@@ -854,7 +2044,7 @@
         "fr": "Relevé de jambes",
         "ar": "رفع الساقين"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Leg+Raise",
+      "image": "https://wger.de/media/exercise-images/125/Leg-raises-2.png",
       "description": {
         "en": "Lift the legs with control to focus on the lower abs.",
         "fr": "Levez les jambes avec contrôle pour cibler le bas des abdos.",
@@ -885,7 +2075,7 @@
         "fr": "Crunch vélo",
         "ar": "كرنش الدراجة"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Bicycle+Crunch",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=BICYCLE%20CRUNCH",
       "description": {
         "en": "Twist the torso as your legs move like pedaling a bike.",
         "fr": "Tournez le buste pendant que les jambes bougent comme sur un vélo.",
@@ -916,7 +2106,7 @@
         "fr": "Mountain climber",
         "ar": "متسلق الجبل"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Mountain+Climber",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=MOUNTAIN%20CLIMBER",
       "description": {
         "en": "A fast core exercise that also gets your heart rate up.",
         "fr": "Un exercice dynamique pour le gainage qui fait aussi monter le cardio.",
@@ -939,6 +2129,244 @@
           "بدّل الساقين بسرعة مع ثبات الوركين."
         ]
       }
+    },
+    {
+      "id": "russian-twist",
+      "name": {
+        "en": "Russian Twist",
+        "fr": "Twist russe",
+        "ar": "لف روسي"
+      },
+      "image": "https://wger.de/media/exercise-images/1193/70ca5d80-3847-4a8c-8882-c6e9e485e29e.png",
+      "description": {
+        "en": "This twisting movement trains the obliques and the deep core muscles.",
+        "fr": "Ce mouvement de rotation travaille les obliques et le gainage profond.",
+        "ar": "يستهدف هذا التمرين العضلات الجانبية للبطن والعضلات العميقة للجذع."
+      },
+      "steps": {
+        "en": [
+          "Sit on the floor with your knees bent and chest lifted.",
+          "Lean back slightly and brace your abs.",
+          "Rotate your torso to one side, then the other.",
+          "Move slowly and keep your spine long."
+        ],
+        "fr": [
+          "Asseyez-vous au sol, genoux pliés et poitrine relevée.",
+          "Penchez-vous légèrement en arrière et gainez les abdos.",
+          "Tournez le buste d'un côté puis de l'autre.",
+          "Bougez lentement en gardant le dos long."
+        ],
+        "ar": [
+          "اجلس على الأرض مع ثني الركبتين ورفع الصدر.",
+          "أمل للخلف قليلًا مع شد عضلات البطن.",
+          "لف الجذع إلى جهة ثم إلى الجهة الأخرى.",
+          "تحرك ببطء مع إبقاء الظهر مستقيمًا وطويلًا."
+        ]
+      }
+    },
+    {
+      "id": "cable-crunch",
+      "name": {
+        "en": "Cable Crunch",
+        "fr": "Crunch à la poulie",
+        "ar": "كرنش بالكابل"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=CABLE%20CRUNCH",
+      "description": {
+        "en": "A cable crunch lets you load the abs directly through spinal flexion.",
+        "fr": "Le crunch à la poulie permet de charger directement les abdos avec une flexion du tronc.",
+        "ar": "يسمح هذا التمرين بتحميل عضلات البطن مباشرة عبر ثني الجذع."
+      },
+      "steps": {
+        "en": [
+          "Kneel under a high pulley with a rope attachment.",
+          "Hold the rope beside your head.",
+          "Crunch your ribs toward your hips without pulling with the arms.",
+          "Return slowly to the tall kneeling position."
+        ],
+        "fr": [
+          "Mettez-vous à genoux sous une poulie haute avec une corde.",
+          "Tenez la corde de chaque côté de la tête.",
+          "Enroulez les côtes vers les hanches sans tirer avec les bras.",
+          "Revenez lentement à la position haute."
+        ],
+        "ar": [
+          "اركع تحت بكرة علوية مع حبل.",
+          "أمسك الحبل بجانب الرأس.",
+          "اثنِ القفص الصدري نحو الوركين من دون السحب بالذراعين.",
+          "عد ببطء إلى وضع الركوع المستقيم."
+        ]
+      }
+    },
+    {
+      "id": "ab-wheel-rollout",
+      "name": {
+        "en": "Ab Wheel Rollout",
+        "fr": "Roulade à la roue abdominale",
+        "ar": "تمرين عجلة البطن"
+      },
+      "image": "https://wger.de/media/exercise-images/1573/a9ab402b-61ef-4d60-b91a-df52bf7f41a9.jpg",
+      "description": {
+        "en": "The ab wheel rollout challenges the entire core against extension.",
+        "fr": "La roue abdominale met au défi tout le gainage contre l'extension.",
+        "ar": "يختبر هذا التمرين قوة الجذع بالكامل ضد التمدد."
+      },
+      "steps": {
+        "en": [
+          "Kneel on the floor holding the ab wheel under your shoulders.",
+          "Brace your abs and squeeze your glutes.",
+          "Roll forward as far as you can without losing your spine position.",
+          "Pull back to the start using your core."
+        ],
+        "fr": [
+          "Mettez-vous à genoux au sol avec la roue sous les épaules.",
+          "Gainez les abdos et serrez les fessiers.",
+          "Roulez vers l'avant aussi loin que possible sans perdre la position du dos.",
+          "Revenez au départ grâce au gainage."
+        ],
+        "ar": [
+          "اركع على الأرض ممسكًا بعجلة البطن تحت الكتفين.",
+          "شد عضلات البطن واضغط المؤخرة.",
+          "تدحرج للأمام بقدر ما تستطيع من دون فقدان وضعية الظهر.",
+          "اسحب نفسك للعودة باستخدام عضلات الجذع."
+        ]
+      }
+    },
+    {
+      "id": "hanging-knee-raise",
+      "name": {
+        "en": "Hanging Knee Raise",
+        "fr": "Montée de genoux suspendue",
+        "ar": "رفع الركبتين معلقًا"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=HANGING%20KNEE%20RAISE",
+      "description": {
+        "en": "This hanging variation trains the lower abs and hip flexors while challenging grip strength.",
+        "fr": "Cette variante suspendue travaille le bas des abdos, les fléchisseurs de hanche et la poigne.",
+        "ar": "تستهدف هذه النسخة السفلية من البطن ومثنيات الورك مع تحدي قوة القبضة."
+      },
+      "steps": {
+        "en": [
+          "Hang from a pull-up bar with your legs straight.",
+          "Pull your shoulders down and brace your core.",
+          "Raise your knees toward your chest.",
+          "Lower them slowly without swinging."
+        ],
+        "fr": [
+          "Suspendez-vous à une barre de traction avec les jambes tendues.",
+          "Abaissez les épaules et gainez le tronc.",
+          "Montez les genoux vers la poitrine.",
+          "Redescendez lentement sans balancer."
+        ],
+        "ar": [
+          "تعلق على بار العقلة مع مد الرجلين.",
+          "اخفض الكتفين وشد الجذع.",
+          "ارفع الركبتين نحو الصدر.",
+          "أنزلهما ببطء من دون تأرجح."
+        ]
+      }
+    },
+    {
+      "id": "side-plank",
+      "name": {
+        "en": "Side Plank",
+        "fr": "Planche latérale",
+        "ar": "بلانك جانبي"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SIDE%20PLANK",
+      "description": {
+        "en": "The side plank builds oblique strength and lateral core stability.",
+        "fr": "La planche latérale développe les obliques et la stabilité latérale du tronc.",
+        "ar": "يقوي البلانك الجانبي عضلات الخصر والثبات الجانبي للجذع."
+      },
+      "steps": {
+        "en": [
+          "Lie on one side with your elbow under your shoulder.",
+          "Stack your legs and lift your hips off the floor.",
+          "Keep your body in one straight line.",
+          "Hold, then switch sides."
+        ],
+        "fr": [
+          "Allongez-vous sur un côté avec le coude sous l'épaule.",
+          "Superposez les jambes et soulevez les hanches du sol.",
+          "Gardez le corps aligné.",
+          "Tenez la position puis changez de côté."
+        ],
+        "ar": [
+          "استلقِ على أحد الجانبين مع وضع المرفق تحت الكتف.",
+          "ضع الساقين فوق بعضهما وارفع الوركين عن الأرض.",
+          "حافظ على الجسم في خط مستقيم.",
+          "اثبت ثم بدّل الجهة."
+        ]
+      }
+    },
+    {
+      "id": "v-up",
+      "name": {
+        "en": "V-Up",
+        "fr": "V-up",
+        "ar": "في أب"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=V-UP",
+      "description": {
+        "en": "The V-up combines a leg raise and crunch to challenge the whole front of the core.",
+        "fr": "Le V-up combine un relevé de jambes et un crunch pour solliciter toute la sangle abdominale.",
+        "ar": "يجمع هذا التمرين بين رفع الساقين والكرنش لاستهداف الجهة الأمامية كاملة من الجذع."
+      },
+      "steps": {
+        "en": [
+          "Lie flat on your back with arms overhead.",
+          "Raise your legs and upper body at the same time.",
+          "Reach your hands toward your feet to form a V shape.",
+          "Lower back down slowly with control."
+        ],
+        "fr": [
+          "Allongez-vous sur le dos avec les bras au-dessus de la tête.",
+          "Montez les jambes et le haut du corps en même temps.",
+          "Tendez les mains vers les pieds pour former un V.",
+          "Redescendez lentement avec contrôle."
+        ],
+        "ar": [
+          "استلقِ على ظهرك وذراعاك فوق الرأس.",
+          "ارفع الساقين والجزء العلوي في الوقت نفسه.",
+          "مد يديك نحو القدمين لتشكيل حرف V.",
+          "عد ببطء إلى الأسفل مع التحكم."
+        ]
+      }
+    },
+    {
+      "id": "dragon-flag",
+      "name": {
+        "en": "Dragon Flag",
+        "fr": "Dragon flag",
+        "ar": "دراجون فلاج"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=DRAGON%20FLAG",
+      "description": {
+        "en": "The dragon flag is an advanced core drill that demands strong control from shoulders to hips.",
+        "fr": "Le dragon flag est un exercice avancé qui demande un grand contrôle des épaules aux hanches.",
+        "ar": "الدراجون فلاج تمرين متقدم يتطلب تحكمًا قويًا من الكتفين حتى الوركين."
+      },
+      "steps": {
+        "en": [
+          "Lie on a bench and hold it firmly behind your head.",
+          "Lift your body so only your upper back stays on the bench.",
+          "Lower your body slowly as one rigid line.",
+          "Raise back up without bending at the hips."
+        ],
+        "fr": [
+          "Allongez-vous sur un banc et tenez-le fermement derrière la tête.",
+          "Soulevez le corps pour ne garder que le haut du dos sur le banc.",
+          "Descendez lentement en gardant le corps rigide.",
+          "Remontez sans casser au niveau des hanches."
+        ],
+        "ar": [
+          "استلقِ على مقعد وامسكه بقوة خلف الرأس.",
+          "ارفع الجسم حتى يبقى أعلى الظهر فقط على المقعد.",
+          "أنزل الجسم ببطء كخط واحد صلب.",
+          "ارفعه من جديد من دون ثني الوركين."
+        ]
+      }
     }
   ],
   "forearms": [
@@ -949,7 +2377,7 @@
         "fr": "Curl des poignets",
         "ar": "ثني المعصم"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Wrist+Curl",
+      "image": "https://wger.de/media/exercise-images/51/f1730f56-7aca-4566-8338-3e42b1bee6e1.webp",
       "description": {
         "en": "A simple move for building grip and forearm strength.",
         "fr": "Un mouvement simple pour développer la poigne et les avant-bras.",
@@ -980,7 +2408,7 @@
         "fr": "Curl inversé des poignets",
         "ar": "ثني المعصم العكسي"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Reverse+Wrist+Curl",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=REVERSE%20WRIST%20CURL",
       "description": {
         "en": "This version targets the top of the forearms.",
         "fr": "Cette version cible le dessus des avant-bras.",
@@ -1011,7 +2439,7 @@
         "fr": "Marche du fermier",
         "ar": "حمل المزارع"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Farmer+Carry",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=FARMER%20CARRY",
       "description": {
         "en": "Walk with heavy weights to build grip, forearms, and posture.",
         "fr": "Marchez avec des poids lourds pour renforcer la poigne, les avant-bras et la posture.",
@@ -1042,7 +2470,7 @@
         "fr": "Pression avec serviette",
         "ar": "عصر المنشفة"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Towel+Squeeze",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=TOWEL%20SQUEEZE",
       "description": {
         "en": "A very simple grip drill you can do almost anywhere.",
         "fr": "Un exercice de prise très simple que vous pouvez faire presque partout.",
@@ -1073,7 +2501,7 @@
         "fr": "Pincement de disque",
         "ar": "قبضة القرص"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Plate+Pinch",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=PLATE%20PINCH",
       "description": {
         "en": "Pinch a weight plate to train finger and grip strength.",
         "fr": "Pincez un disque pour travailler les doigts et la force de préhension.",
@@ -1096,6 +2524,176 @@
           "استمر في الضغط حتى تحتاج للراحة."
         ]
       }
+    },
+    {
+      "id": "wrist-roller",
+      "name": {
+        "en": "Wrist Roller",
+        "fr": "Rouleau de poignets",
+        "ar": "لفافة المعصم"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=WRIST%20ROLLER",
+      "description": {
+        "en": "The wrist roller builds forearm endurance and grip strength through repeated rolling.",
+        "fr": "Le rouleau de poignets développe l'endurance des avant-bras et la force de préhension.",
+        "ar": "يبني هذا التمرين تحمل الساعدين وقوة القبضة عبر اللف المتكرر."
+      },
+      "steps": {
+        "en": [
+          "Hold the wrist roller straight out in front of you.",
+          "Roll the weight up by turning your hands.",
+          "Keep your arms lifted and shoulders steady.",
+          "Reverse the motion to lower the weight slowly."
+        ],
+        "fr": [
+          "Tenez le rouleau de poignets devant vous, bras tendus.",
+          "Enroulez la charge en tournant les mains.",
+          "Gardez les bras levés et les épaules stables.",
+          "Déroulez lentement pour redescendre la charge."
+        ],
+        "ar": [
+          "أمسك أداة لف المعصم أمامك والذراعان ممدودتان.",
+          "لف الوزن للأعلى عبر تدوير اليدين.",
+          "حافظ على الذراعين مرفوعتين والكتفين ثابتين.",
+          "اعكس الحركة لإنزال الوزن ببطء."
+        ]
+      }
+    },
+    {
+      "id": "barbell-reverse-curl",
+      "name": {
+        "en": "Barbell Reverse Curl",
+        "fr": "Curl inversé à la barre",
+        "ar": "ثني عكسي بالبار"
+      },
+      "image": "https://wger.de/media/exercise-images/1190/c05818bf-1c81-46df-9f24-42e354265388.png",
+      "description": {
+        "en": "Using an overhand grip shifts more work to the brachialis and forearms.",
+        "fr": "La prise pronation sollicite davantage le brachial et les avant-bras.",
+        "ar": "تنقل القبضة العلوية العمل أكثر إلى العضلة العضدية والساعدين."
+      },
+      "steps": {
+        "en": [
+          "Hold the barbell with your palms facing down.",
+          "Keep your elbows close to your sides.",
+          "Curl the bar upward without swinging.",
+          "Lower back down slowly and fully."
+        ],
+        "fr": [
+          "Tenez la barre avec les paumes vers le bas.",
+          "Gardez les coudes près du corps.",
+          "Montez la barre sans élan.",
+          "Redescendez lentement jusqu'en bas."
+        ],
+        "ar": [
+          "أمسك البار وراحة اليد إلى الأسفل.",
+          "أبقِ المرفقين قريبين من الجسم.",
+          "ارفع البار من دون تأرجح.",
+          "اخفضه ببطء حتى النهاية."
+        ]
+      }
+    },
+    {
+      "id": "suitcase-carry",
+      "name": {
+        "en": "Suitcase Carry",
+        "fr": "Marche valise",
+        "ar": "حمل الحقيبة"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SUITCASE%20CARRY",
+      "description": {
+        "en": "Carrying one heavy weight at your side trains grip, obliques, and posture.",
+        "fr": "Porter une charge lourde d'un seul côté travaille la poigne, les obliques et la posture.",
+        "ar": "يدرّب حمل وزن ثقيل على جانب واحد القبضة والخصر والوضعية."
+      },
+      "steps": {
+        "en": [
+          "Pick up one heavy dumbbell or kettlebell at your side.",
+          "Stand tall without leaning.",
+          "Walk slowly while keeping your shoulders level.",
+          "Switch hands after the set distance or time."
+        ],
+        "fr": [
+          "Prenez un haltère ou kettlebell lourd sur un côté.",
+          "Restez grand sans vous pencher.",
+          "Marchez lentement en gardant les épaules à niveau.",
+          "Changez de main après la distance ou la durée prévue."
+        ],
+        "ar": [
+          "احمل دمبلًا أو كيتلبيل ثقيلًا على جانب واحد.",
+          "قف مستقيمًا من دون ميل.",
+          "امشِ ببطء مع إبقاء الكتفين على مستوى واحد.",
+          "بدّل اليد بعد المسافة أو الزمن المحدد."
+        ]
+      }
+    },
+    {
+      "id": "dead-hang",
+      "name": {
+        "en": "Dead Hang",
+        "fr": "Suspension passive",
+        "ar": "تعليق ثابت"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=DEAD%20HANG",
+      "description": {
+        "en": "The dead hang strengthens your grip and helps decompress the shoulders.",
+        "fr": "La suspension passive renforce la poigne et aide à relâcher les épaules.",
+        "ar": "يقوي هذا التمرين القبضة ويساعد على إراحة الكتفين تحت الحمل."
+      },
+      "steps": {
+        "en": [
+          "Grab a pull-up bar with your hands about shoulder width apart.",
+          "Lift your feet off the floor and hang freely.",
+          "Keep your body still and breathe steadily.",
+          "Step down once your grip starts to fail."
+        ],
+        "fr": [
+          "Saisissez une barre de traction avec les mains à largeur d'épaules.",
+          "Décollez les pieds du sol et laissez-vous suspendre.",
+          "Gardez le corps immobile et respirez calmement.",
+          "Reposez-vous dès que la prise faiblit."
+        ],
+        "ar": [
+          "أمسك بار العقلة بقبضة بعرض الكتفين تقريبًا.",
+          "ارفع القدمين عن الأرض وتعلّق بحرية.",
+          "حافظ على ثبات الجسم وتنفس بهدوء.",
+          "انزل عندما تبدأ القبضة في الضعف."
+        ]
+      }
+    },
+    {
+      "id": "towel-pull-up",
+      "name": {
+        "en": "Towel Pull-Up",
+        "fr": "Traction avec serviette",
+        "ar": "عقلة بالمنشفة"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=TOWEL%20PULL-UP",
+      "description": {
+        "en": "Wrapping towels over the bar makes the grip more demanding during pull-ups.",
+        "fr": "Passer des serviettes sur la barre rend la prise plus difficile pendant les tractions.",
+        "ar": "استخدام المناشف فوق البار يزيد صعوبة القبضة أثناء العقلة."
+      },
+      "steps": {
+        "en": [
+          "Loop two towels over a pull-up bar.",
+          "Grab the towel ends firmly and hang with control.",
+          "Pull your chest up while keeping your body tight.",
+          "Lower slowly to a full hang before the next rep."
+        ],
+        "fr": [
+          "Passez deux serviettes sur une barre de traction.",
+          "Saisissez fermement les extrémités et suspendez-vous avec contrôle.",
+          "Tirez la poitrine vers le haut en gardant le corps gainé.",
+          "Redescendez lentement jusqu'à la suspension complète."
+        ],
+        "ar": [
+          "لف منشفتين فوق بار العقلة.",
+          "أمسك أطراف المناشف بإحكام وتعلّق بتحكم.",
+          "اسحب صدرك للأعلى مع إبقاء الجسم مشدودًا.",
+          "انزل ببطء حتى التعليق الكامل قبل التكرار التالي."
+        ]
+      }
     }
   ],
   "legs": [
@@ -1106,7 +2704,7 @@
         "fr": "Squat au poids du corps",
         "ar": "سكوات بوزن الجسم"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Bodyweight+Squat",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=BODYWEIGHT%20SQUAT",
       "description": {
         "en": "A basic lower-body movement for the quads, glutes, and core.",
         "fr": "Un mouvement de base pour les jambes, les fessiers et le gainage.",
@@ -1137,7 +2735,7 @@
         "fr": "Fente",
         "ar": "لانج"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Lunge",
+      "image": "https://wger.de/media/exercise-images/984/5c7ffe68-e7b2-47f3-a22a-f9cc28640432.png",
       "description": {
         "en": "Step forward and lower down to train each leg separately.",
         "fr": "Faites un pas en avant et descendez pour travailler chaque jambe séparément.",
@@ -1168,7 +2766,7 @@
         "fr": "Pont fessier",
         "ar": "جسر المؤخرة"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Glute+Bridge",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=GLUTE%20BRIDGE",
       "description": {
         "en": "Lift the hips off the floor to work the glutes and hamstrings.",
         "fr": "Soulevez les hanches du sol pour travailler les fessiers et l'arrière des jambes.",
@@ -1199,7 +2797,7 @@
         "fr": "Montée sur banc",
         "ar": "صعود الصندوق"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Step-Up",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=STEP-UP",
       "description": {
         "en": "Step onto a bench or box to build leg power and balance.",
         "fr": "Montez sur un banc ou une box pour développer la puissance et l'équilibre.",
@@ -1230,7 +2828,7 @@
         "fr": "Chaise contre le mur",
         "ar": "الجلوس على الحائط"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Wall+Sit",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=WALL%20SIT",
       "description": {
         "en": "A simple hold that burns the thighs and builds endurance.",
         "fr": "Un maintien simple qui chauffe les cuisses et développe l'endurance.",
@@ -1253,6 +2851,244 @@
           "اثبت في الوضعية مع شد عضلات البطن."
         ]
       }
+    },
+    {
+      "id": "back-squat",
+      "name": {
+        "en": "Back Squat",
+        "fr": "Back squat",
+        "ar": "سكوات خلفي"
+      },
+      "image": "https://wger.de/media/exercise-images/1805/f166c599-4c03-42a0-9250-47f82a1f096d.jpg",
+      "description": {
+        "en": "The back squat is a foundational leg exercise for strength in the quads, glutes, and core.",
+        "fr": "Le back squat est un mouvement de base pour développer quadriceps, fessiers et gainage.",
+        "ar": "السكوات الخلفي من التمارين الأساسية لتقوية الفخذين والمؤخرة والجذع."
+      },
+      "steps": {
+        "en": [
+          "Set the bar across your upper back and stand with feet about shoulder width apart.",
+          "Brace your core and keep your chest up.",
+          "Sit down and back until your thighs reach parallel or lower.",
+          "Drive through your feet to stand back up."
+        ],
+        "fr": [
+          "Placez la barre sur le haut du dos et écartez les pieds à largeur d'épaules.",
+          "Gainez le tronc et gardez la poitrine haute.",
+          "Descendez en envoyant les hanches vers l'arrière jusqu'à la parallèle ou plus bas.",
+          "Poussez dans les pieds pour revenir debout."
+        ],
+        "ar": [
+          "ضع البار على أعلى الظهر وابعِد القدمين بعرض الكتفين.",
+          "شد الجذع وأبقِ الصدر مرفوعًا.",
+          "انزل بالوركين للخلف حتى يصبح الفخذان موازيين أو أقل.",
+          "ادفع بالقدمين للعودة إلى الوقوف."
+        ]
+      }
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": {
+        "en": "Romanian Deadlift",
+        "fr": "Soulevé de terre roumain",
+        "ar": "ديدليفت روماني"
+      },
+      "image": "https://wger.de/media/exercise-images/1750/c5ff74e1-b494-4df0-a13f-89c630b88ef9.webp",
+      "description": {
+        "en": "This hip-hinge variation emphasizes the hamstrings and glutes with minimal knee bend.",
+        "fr": "Cette variante accentue le travail des ischio-jambiers et des fessiers avec peu de flexion de genou.",
+        "ar": "تركّز هذه النسخة على الفخذ الخلفي والمؤخرة مع ثني بسيط في الركبتين."
+      },
+      "steps": {
+        "en": [
+          "Stand tall holding the bar or dumbbells in front of your thighs.",
+          "Soften your knees slightly.",
+          "Push your hips back and lower the weight along your legs.",
+          "Stand up by driving your hips forward again."
+        ],
+        "fr": [
+          "Tenez-vous droit avec la barre ou les haltères devant les cuisses.",
+          "Gardez une légère flexion des genoux.",
+          "Reculez les hanches et faites glisser la charge le long des jambes.",
+          "Redressez-vous en poussant les hanches vers l'avant."
+        ],
+        "ar": [
+          "قف مستقيمًا ممسكًا بالبار أو الدمبلين أمام الفخذين.",
+          "اثنِ الركبتين قليلًا فقط.",
+          "ادفع الوركين للخلف وأنزل الوزن بمحاذاة الساقين.",
+          "قف مجددًا عبر دفع الوركين للأمام."
+        ]
+      }
+    },
+    {
+      "id": "leg-press",
+      "name": {
+        "en": "Leg Press",
+        "fr": "Presse à cuisses",
+        "ar": "ضغط الأرجل"
+      },
+      "image": "https://wger.de/media/exercise-images/371/d2136f96-3a43-4d4c-9944-1919c4ca1ce1.webp",
+      "description": {
+        "en": "The leg press lets you train the quads and glutes with a supported machine setup.",
+        "fr": "La presse à cuisses fait travailler quadriceps et fessiers avec l'appui de la machine.",
+        "ar": "يسمح هذا الجهاز بتدريب الفخذين والمؤخرة مع دعم جيد للجسم."
+      },
+      "steps": {
+        "en": [
+          "Sit in the machine and place your feet shoulder width apart on the platform.",
+          "Unlock the sled and keep your lower back against the pad.",
+          "Lower the platform until your knees bend deeply.",
+          "Press it back up without locking your knees hard."
+        ],
+        "fr": [
+          "Asseyez-vous dans la machine et placez les pieds à largeur d'épaules sur la plateforme.",
+          "Déverrouillez le chariot en gardant le bas du dos collé au dossier.",
+          "Descendez la plateforme jusqu'à une bonne flexion des genoux.",
+          "Repoussez-la sans verrouiller brutalement les genoux."
+        ],
+        "ar": [
+          "اجلس في الجهاز وضع القدمين بعرض الكتفين على المنصة.",
+          "افتح أمان العربة مع إبقاء أسفل الظهر ملتصقًا بالوسادة.",
+          "أنزل المنصة حتى تنثني الركبتان بعمق.",
+          "ادفعها للأعلى من دون قفل الركبتين بقوة."
+        ]
+      }
+    },
+    {
+      "id": "leg-extension",
+      "name": {
+        "en": "Leg Extension",
+        "fr": "Extension de jambes",
+        "ar": "تمديد الساقين"
+      },
+      "image": "https://wger.de/media/exercise-images/369/78c915d1-e46d-4d30-8124-65d68664c3ef.png",
+      "description": {
+        "en": "Leg extensions isolate the quadriceps with a simple knee-extension movement.",
+        "fr": "L'extension de jambes isole les quadriceps avec un mouvement simple d'extension du genou.",
+        "ar": "يعزل هذا التمرين عضلات الفخذ الأمامية عبر حركة فرد الركبة."
+      },
+      "steps": {
+        "en": [
+          "Adjust the seat so your knees line up with the machine pivot.",
+          "Place your shins behind the pad.",
+          "Extend your legs until they are straight.",
+          "Lower the weight slowly back down."
+        ],
+        "fr": [
+          "Réglez le siège pour aligner les genoux avec l'axe de la machine.",
+          "Placez les tibias derrière le boudin.",
+          "Tendez les jambes jusqu'à l'extension complète.",
+          "Redescendez lentement la charge."
+        ],
+        "ar": [
+          "اضبط المقعد حتى تصطف الركبتان مع محور الجهاز.",
+          "ضع الساقين خلف الوسادة الأمامية.",
+          "افرد الرجلين حتى الاستقامة الكاملة.",
+          "أنزل الوزن ببطء إلى الأسفل."
+        ]
+      }
+    },
+    {
+      "id": "leg-curl",
+      "name": {
+        "en": "Leg Curl",
+        "fr": "Leg curl",
+        "ar": "ثني الساق الخلفي"
+      },
+      "image": "https://wger.de/media/exercise-images/364/b318dde9-f5f2-489f-940a-cd864affb9e3.png",
+      "description": {
+        "en": "The leg curl targets the hamstrings through knee flexion.",
+        "fr": "Le leg curl cible les ischio-jambiers grâce à une flexion du genou.",
+        "ar": "يستهدف هذا التمرين عضلات الفخذ الخلفية عبر ثني الركبة."
+      },
+      "steps": {
+        "en": [
+          "Adjust the machine so the pad sits above your heels or lower calves.",
+          "Brace your torso against the bench or pad.",
+          "Curl the weight by bending your knees.",
+          "Lower slowly until your legs are extended again."
+        ],
+        "fr": [
+          "Réglez la machine pour que le boudin repose au-dessus des talons ou sur les mollets.",
+          "Stabilisez le buste contre le banc ou le support.",
+          "Ramenez la charge en pliant les genoux.",
+          "Redescendez lentement jusqu'aux jambes tendues."
+        ],
+        "ar": [
+          "اضبط الجهاز بحيث تستقر الوسادة فوق الكعبين أو أسفل الساقين.",
+          "ثبّت الجذع على المقعد أو الوسادة.",
+          "اسحب الوزن عبر ثني الركبتين.",
+          "أنزله ببطء حتى تتمدد الساقان من جديد."
+        ]
+      }
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "name": {
+        "en": "Bulgarian Split Squat",
+        "fr": "Fente bulgare",
+        "ar": "سكوات بلغاري"
+      },
+      "image": "https://wger.de/media/exercise-images/988/6283b258-a4d7-4833-84f7-a38987022d3d.png",
+      "description": {
+        "en": "This single-leg movement challenges balance while heavily training the quads and glutes.",
+        "fr": "Ce mouvement unilatéral met à l'épreuve l'équilibre tout en sollicitant fortement jambes et fessiers.",
+        "ar": "يتحدى هذا التمرين توازنك ويستهدف بقوة الفخذين والمؤخرة."
+      },
+      "steps": {
+        "en": [
+          "Stand a step in front of a bench and place your back foot on it.",
+          "Keep your torso tall and front foot planted.",
+          "Lower your hips until the front thigh is near parallel.",
+          "Drive through the front foot to stand back up."
+        ],
+        "fr": [
+          "Placez-vous à un pas devant un banc et posez le pied arrière dessus.",
+          "Gardez le buste droit et le pied avant bien ancré.",
+          "Descendez les hanches jusqu'à la quasi-parallèle de la cuisse avant.",
+          "Poussez dans le pied avant pour remonter."
+        ],
+        "ar": [
+          "قف على بعد خطوة من مقعد وضع القدم الخلفية عليه.",
+          "أبقِ الجذع مستقيمًا والقدم الأمامية ثابتة.",
+          "اخفض الوركين حتى يقترب الفخذ الأمامي من التوازي.",
+          "ادفع بالقدم الأمامية للعودة إلى الأعلى."
+        ]
+      }
+    },
+    {
+      "id": "hip-thrust",
+      "name": {
+        "en": "Hip Thrust",
+        "fr": "Hip thrust",
+        "ar": "هيب ثرست"
+      },
+      "image": "https://wger.de/media/exercise-images/1614/7f3cfae2-e062-4211-9a6b-5a10851ce7f4.jpg",
+      "description": {
+        "en": "Hip thrusts emphasize the glutes with a strong lockout at the top.",
+        "fr": "Le hip thrust cible surtout les fessiers avec une forte extension en haut.",
+        "ar": "يركز هذا التمرين على عضلات المؤخرة مع انقباض قوي في الأعلى."
+      },
+      "steps": {
+        "en": [
+          "Rest your upper back on a bench with the bar or weight over your hips.",
+          "Plant your feet flat and brace your core.",
+          "Drive through your heels to lift your hips.",
+          "Pause at the top, then lower with control."
+        ],
+        "fr": [
+          "Posez le haut du dos sur un banc avec la barre ou la charge sur les hanches.",
+          "Ancrez les pieds au sol et gainez le tronc.",
+          "Poussez dans les talons pour monter les hanches.",
+          "Marquez une pause en haut puis redescendez avec contrôle."
+        ],
+        "ar": [
+          "ضع أعلى الظهر على مقعد مع البار أو الوزن فوق الوركين.",
+          "ثبّت القدمين على الأرض وشد الجذع.",
+          "ادفع بالكعبين لرفع الوركين.",
+          "توقف في الأعلى ثم انزل بتحكم."
+        ]
+      }
     }
   ],
   "calves": [
@@ -1263,7 +3099,7 @@
         "fr": "Mollets debout",
         "ar": "رفع السمانة واقفًا"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Standing+Calf+Raise",
+      "image": "https://wger.de/media/exercise-images/622/9a429bd0-afd3-4ad0-8043-e9beec901c81.jpeg",
       "description": {
         "en": "Rise onto your toes to strengthen the calves.",
         "fr": "Montez sur la pointe des pieds pour renforcer les mollets.",
@@ -1294,7 +3130,7 @@
         "fr": "Mollets assis",
         "ar": "رفع السمانة جالسًا"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Seated+Calf+Raise",
+      "image": "https://wger.de/media/exercise-images/1620/edd40e39-e337-4460-a8dd-6127d40ddd16.jpeg",
       "description": {
         "en": "A seated version that focuses on calf control and squeeze.",
         "fr": "Une version assise qui met l'accent sur le contrôle et la contraction du mollet.",
@@ -1325,7 +3161,7 @@
         "fr": "Mollet une jambe",
         "ar": "رفع السمانة بساق واحدة"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Single-Leg+Calf+Raise",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SINGLE-LEG%20CALF%20RAISE",
       "description": {
         "en": "Use one leg at a time to make the calf work harder.",
         "fr": "Travaillez une jambe à la fois pour solliciter davantage le mollet.",
@@ -1356,7 +3192,7 @@
         "fr": "Sauts corde pour mollets",
         "ar": "قفز الحبل للسمانة"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Jump+Rope+Calf+Bounce",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=JUMP%20ROPE%20CALF%20BOUNCE",
       "description": {
         "en": "Small rope jumps train the calves and improve rhythm.",
         "fr": "Les petits sauts à la corde entraînent les mollets et le rythme.",
@@ -1387,7 +3223,7 @@
         "fr": "Mollets sur marche",
         "ar": "رفع السمانة على الدرج"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Stair+Calf+Raise",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=STAIR%20CALF%20RAISE",
       "description": {
         "en": "Using a step gives the calves a deeper stretch.",
         "fr": "Utiliser une marche donne un étirement plus profond aux mollets.",
@@ -1410,6 +3246,176 @@
           "اخفض الكعبين أسفل الدرجة لتمدد كامل."
         ]
       }
+    },
+    {
+      "id": "leg-press-calf-raise",
+      "name": {
+        "en": "Leg Press Calf Raise",
+        "fr": "Mollets à la presse",
+        "ar": "رفع السمانة على جهاز الضغط"
+      },
+      "image": "https://wger.de/media/exercise-images/146/8b284904-d072-4381-a256-4c81d8fd9c1f.png",
+      "description": {
+        "en": "Using the leg press for calf raises lets you load the calves safely and heavily.",
+        "fr": "Faire les mollets à la presse permet de charger lourd avec un bon appui.",
+        "ar": "يسمح هذا التمرين بتحميل عضلات السمانة بشكل آمن وثقيل على جهاز الضغط."
+      },
+      "steps": {
+        "en": [
+          "Sit in the leg press with only the balls of your feet on the platform edge.",
+          "Keep a slight bend in your knees.",
+          "Press through your toes to raise your heels.",
+          "Lower slowly into a deep calf stretch."
+        ],
+        "fr": [
+          "Asseyez-vous à la presse en posant seulement l'avant des pieds sur le bord.",
+          "Gardez une légère flexion des genoux.",
+          "Poussez sur les pointes pour lever les talons.",
+          "Redescendez lentement jusqu'à un bon étirement des mollets."
+        ],
+        "ar": [
+          "اجلس على جهاز الضغط وضع فقط مقدمة القدمين على حافة المنصة.",
+          "أبقِ الركبتين مثنيتين قليلًا.",
+          "ادفع بأصابع القدمين لرفع الكعبين.",
+          "اخفضهما ببطء إلى تمدد عميق للسمانة."
+        ]
+      }
+    },
+    {
+      "id": "donkey-calf-raise",
+      "name": {
+        "en": "Donkey Calf Raise",
+        "fr": "Mollets donkey",
+        "ar": "رفع السمانة دونكي"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=DONKEY%20CALF%20RAISE",
+      "description": {
+        "en": "The donkey calf raise stretches the calves in a bent-over position for a strong contraction.",
+        "fr": "Le donkey calf raise étire les mollets en position penchée pour une forte contraction.",
+        "ar": "يمنح هذا التمرين تمددًا قويًا للسمانة في وضعية الانحناء مع انقباض كبير."
+      },
+      "steps": {
+        "en": [
+          "Lean forward with your hands supported on a bench or machine.",
+          "Place the balls of your feet on a step.",
+          "Raise your heels as high as possible.",
+          "Lower slowly below the step for a stretch."
+        ],
+        "fr": [
+          "Penchez-vous en avant avec les mains appuyées sur un banc ou une machine.",
+          "Placez l'avant des pieds sur une marche.",
+          "Montez les talons aussi haut que possible.",
+          "Redescendez lentement sous la marche pour l'étirement."
+        ],
+        "ar": [
+          "انحنِ للأمام مع دعم اليدين على مقعد أو جهاز.",
+          "ضع مقدمة القدمين على خطوة مرتفعة.",
+          "ارفع الكعبين لأعلى ما يمكن.",
+          "اخفضهما ببطء أسفل الحافة للحصول على تمدد."
+        ]
+      }
+    },
+    {
+      "id": "box-jump",
+      "name": {
+        "en": "Box Jump",
+        "fr": "Saut sur box",
+        "ar": "قفز على صندوق"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=BOX%20JUMP",
+      "description": {
+        "en": "Box jumps build explosive power in the legs and ankles.",
+        "fr": "Les sauts sur box développent la puissance explosive des jambes et des chevilles.",
+        "ar": "يبني هذا التمرين القوة الانفجارية في الساقين والكاحلين."
+      },
+      "steps": {
+        "en": [
+          "Stand facing a sturdy box with your feet about hip width apart.",
+          "Dip quickly and swing your arms.",
+          "Jump onto the box and land softly.",
+          "Step down carefully before the next rep."
+        ],
+        "fr": [
+          "Placez-vous face à une box solide, pieds à largeur de hanches.",
+          "Faites une courte flexion et balancez les bras.",
+          "Sautez sur la box en atterrissant doucement.",
+          "Redescendez prudemment avant la répétition suivante."
+        ],
+        "ar": [
+          "قف أمام صندوق ثابت والقدمان بعرض الوركين.",
+          "انخفض قليلًا بسرعة وحرك الذراعين.",
+          "اقفز على الصندوق واهبط بهدوء.",
+          "انزل بحذر قبل التكرار التالي."
+        ]
+      }
+    },
+    {
+      "id": "jump-rope-calf",
+      "name": {
+        "en": "Jump Rope",
+        "fr": "Corde à sauter",
+        "ar": "نط الحبل"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=JUMP%20ROPE",
+      "description": {
+        "en": "Jumping rope keeps the calves active through repeated quick rebounds.",
+        "fr": "La corde à sauter maintient les mollets en travail grâce aux rebonds rapides répétés.",
+        "ar": "يبقي نط الحبل عضلات السمانة في عمل مستمر عبر ارتدادات سريعة متكررة."
+      },
+      "steps": {
+        "en": [
+          "Hold the rope handles with your elbows close to your sides.",
+          "Stay light on the balls of your feet.",
+          "Turn the rope with your wrists and make small jumps.",
+          "Keep a steady rhythm and land softly."
+        ],
+        "fr": [
+          "Tenez les poignées de la corde avec les coudes près du corps.",
+          "Restez léger sur l'avant des pieds.",
+          "Tournez la corde avec les poignets et faites de petits sauts.",
+          "Gardez un rythme régulier et atterrissez en douceur."
+        ],
+        "ar": [
+          "أمسك مقابض الحبل وأبقِ المرفقين قريبين من الجسم.",
+          "ابقَ خفيفًا على مقدمة القدمين.",
+          "أدر الحبل بالمعصمين وقفز قفزات صغيرة.",
+          "حافظ على إيقاع ثابت وهبوط ناعم."
+        ]
+      }
+    },
+    {
+      "id": "smith-machine-calf-raise",
+      "name": {
+        "en": "Smith Machine Calf Raise",
+        "fr": "Mollets à la machine Smith",
+        "ar": "رفع السمانة على جهاز سميث"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SMITH%20MACHINE%20CALF%20RAISE",
+      "description": {
+        "en": "The Smith machine helps you load calf raises while staying balanced and upright.",
+        "fr": "La machine Smith permet de charger les mollets tout en gardant l'équilibre.",
+        "ar": "يساعد جهاز سميث على تحميل تمارين السمانة مع الحفاظ على التوازن والثبات."
+      },
+      "steps": {
+        "en": [
+          "Set the bar across your upper back and stand on a small step.",
+          "Place the balls of your feet on the step edge.",
+          "Raise your heels as high as you can.",
+          "Lower under control for a full stretch."
+        ],
+        "fr": [
+          "Placez la barre sur le haut du dos et montez sur une petite marche.",
+          "Posez l'avant des pieds sur le bord de la marche.",
+          "Montez les talons aussi haut que possible.",
+          "Redescendez avec contrôle pour un étirement complet."
+        ],
+        "ar": [
+          "ضع البار على أعلى الظهر وقف على خطوة صغيرة.",
+          "ضع مقدمة القدمين على حافة الخطوة.",
+          "ارفع الكعبين لأعلى درجة ممكنة.",
+          "اخفضهما بتحكم للحصول على تمدد كامل."
+        ]
+      }
     }
   ],
   "cardio": [
@@ -1420,7 +3426,7 @@
         "fr": "Jumping jacks",
         "ar": "قفزات جاك"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Jumping+Jacks",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=JUMPING%20JACKS",
       "description": {
         "en": "A simple full-body cardio move to warm up fast.",
         "fr": "Un mouvement cardio complet et simple pour s'échauffer rapidement.",
@@ -1451,7 +3457,7 @@
         "fr": "Montées de genoux",
         "ar": "رفع الركبتين"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=High+Knees",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=HIGH%20KNEES",
       "description": {
         "en": "Run in place while driving the knees up quickly.",
         "fr": "Courez sur place en montant rapidement les genoux.",
@@ -1482,7 +3488,7 @@
         "fr": "Burpees",
         "ar": "بوربي"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Burpees",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=BURPEES",
       "description": {
         "en": "A strong cardio move that uses legs, chest, and core together.",
         "fr": "Un mouvement cardio intense qui utilise les jambes, la poitrine et le gainage.",
@@ -1513,7 +3519,7 @@
         "fr": "Jogging sur place",
         "ar": "جري في المكان"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Jog+in+Place",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=JOG%20IN%20PLACE",
       "description": {
         "en": "An easy cardio option that is simple for beginners.",
         "fr": "Une option cardio facile et simple pour les débutants.",
@@ -1544,7 +3550,7 @@
         "fr": "Pas du patineur",
         "ar": "خطوات المتزلج"
       },
-      "image": "https://placehold.co/900x600/111827/e5e7eb/png?text=Skater+Steps",
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=SKATER%20STEPS",
       "description": {
         "en": "Move side to side to raise the heart rate and train balance.",
         "fr": "Bougez de côté pour faire monter le cardio et travailler l'équilibre.",
@@ -1565,6 +3571,244 @@
           "ابدأ واقفًا مع ثني خفيف للركبتين ووضعية رياضية.",
           "اقفز أو تحرك إلى جانب واحد واترك الساق الأخرى خلفك.",
           "كرر من جانب إلى آخر بإيقاع سلس."
+        ]
+      }
+    },
+    {
+      "id": "running",
+      "name": {
+        "en": "Running",
+        "fr": "Course",
+        "ar": "الجري"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=RUNNING",
+      "description": {
+        "en": "Running improves endurance, heart health, and lower-body stamina.",
+        "fr": "La course améliore l'endurance, la santé cardiovasculaire et l'endurance des jambes.",
+        "ar": "يحسن الجري التحمل وصحة القلب وقدرة الساقين على الاستمرار."
+      },
+      "steps": {
+        "en": [
+          "Start at an easy pace and find a steady rhythm.",
+          "Keep your chest tall and shoulders relaxed.",
+          "Land softly under your body.",
+          "Control your breathing and finish with a cool-down walk."
+        ],
+        "fr": [
+          "Commencez à une allure facile et trouvez un rythme régulier.",
+          "Gardez la poitrine haute et les épaules relâchées.",
+          "Posez les pieds doucement sous le corps.",
+          "Contrôlez votre respiration et terminez par une marche calme."
+        ],
+        "ar": [
+          "ابدأ بسرعة سهلة وابحث عن إيقاع ثابت.",
+          "أبقِ الصدر مرفوعًا والكتفين مرتخيين.",
+          "اهبط بخفة تحت مركز الجسم.",
+          "تحكم في التنفس وأنهِ التمرين بمشي هادئ."
+        ]
+      }
+    },
+    {
+      "id": "jump-rope-cardio",
+      "name": {
+        "en": "Jump Rope",
+        "fr": "Corde à sauter",
+        "ar": "نط الحبل"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=JUMP%20ROPE",
+      "description": {
+        "en": "Jump rope is a simple cardio drill that quickly raises the heart rate.",
+        "fr": "La corde à sauter est un exercice cardio simple qui fait vite monter le rythme cardiaque.",
+        "ar": "نط الحبل تمرين كارديو بسيط يرفع نبضات القلب بسرعة."
+      },
+      "steps": {
+        "en": [
+          "Hold the handles comfortably at hip height.",
+          "Stay on the balls of your feet with light jumps.",
+          "Turn the rope from your wrists instead of your shoulders.",
+          "Keep the pace even and breathe steadily."
+        ],
+        "fr": [
+          "Tenez les poignées confortablement à hauteur de hanches.",
+          "Restez sur l'avant des pieds avec des sauts légers.",
+          "Tournez la corde avec les poignets plutôt qu'avec les épaules.",
+          "Gardez un rythme régulier et respirez calmement."
+        ],
+        "ar": [
+          "أمسك المقابض براحة عند مستوى الوركين.",
+          "ابقَ على مقدمة القدمين مع قفزات خفيفة.",
+          "حرّك الحبل بالمعصمين بدلًا من الكتفين.",
+          "حافظ على وتيرة متساوية وتنفس بثبات."
+        ]
+      }
+    },
+    {
+      "id": "rowing-machine",
+      "name": {
+        "en": "Rowing Machine",
+        "fr": "Rameur",
+        "ar": "جهاز التجديف"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=ROWING%20MACHINE",
+      "description": {
+        "en": "Rowing is a full-body cardio exercise that combines leg drive with upper-body pulling.",
+        "fr": "Le rameur est un cardio complet qui combine poussée des jambes et tirage du haut du corps.",
+        "ar": "التجديف على الجهاز تمرين كارديو كامل للجسم يجمع بين دفع الساقين وسحب الجزء العلوي."
+      },
+      "steps": {
+        "en": [
+          "Start with your knees bent and shins vertical.",
+          "Drive with your legs first, then pull the handle toward your lower ribs.",
+          "Reverse the motion by extending your arms, then bending the knees.",
+          "Keep a smooth, repeatable rhythm."
+        ],
+        "fr": [
+          "Commencez avec les genoux pliés et les tibias verticaux.",
+          "Poussez d'abord avec les jambes puis tirez la poignée vers les côtes basses.",
+          "Revenez en tendant les bras avant de replier les genoux.",
+          "Gardez un rythme fluide et régulier."
+        ],
+        "ar": [
+          "ابدأ والركبتان مثنيتان والساقان عموديتان.",
+          "ادفع أولًا بالساقين ثم اسحب المقبض نحو الأضلاع السفلية.",
+          "اعكس الحركة عبر فرد الذراعين أولًا ثم ثني الركبتين.",
+          "حافظ على إيقاع سلس ومتكرر."
+        ]
+      }
+    },
+    {
+      "id": "cycling",
+      "name": {
+        "en": "Cycling",
+        "fr": "Cyclisme",
+        "ar": "ركوب الدراجة"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=CYCLING",
+      "description": {
+        "en": "Cycling builds aerobic endurance while being gentle on the joints.",
+        "fr": "Le cyclisme développe l'endurance aérobie tout en restant doux pour les articulations.",
+        "ar": "يطور ركوب الدراجة التحمل الهوائي مع ضغط أقل على المفاصل."
+      },
+      "steps": {
+        "en": [
+          "Set the bike seat to a comfortable height.",
+          "Start pedaling at a moderate pace.",
+          "Keep your upper body relaxed and your cadence smooth.",
+          "Adjust resistance to match your workout goal."
+        ],
+        "fr": [
+          "Réglez la selle à une hauteur confortable.",
+          "Commencez à pédaler à allure modérée.",
+          "Gardez le haut du corps détendu et une cadence fluide.",
+          "Ajustez la résistance selon l'objectif de la séance."
+        ],
+        "ar": [
+          "اضبط مقعد الدراجة على ارتفاع مريح.",
+          "ابدأ بالدوس بوتيرة معتدلة.",
+          "أبقِ الجزء العلوي مرتاحًا وحافظ على دوران سلس.",
+          "عدّل المقاومة حسب هدف التمرين."
+        ]
+      }
+    },
+    {
+      "id": "battle-ropes",
+      "name": {
+        "en": "Battle Ropes",
+        "fr": "Cordes ondulatoires",
+        "ar": "حبال المعركة"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=BATTLE%20ROPES",
+      "description": {
+        "en": "Battle ropes raise the heart rate fast while training the arms, shoulders, and core.",
+        "fr": "Les battle ropes font monter le cardio rapidement tout en travaillant bras, épaules et gainage.",
+        "ar": "ترفع حبال المعركة نبض القلب بسرعة وتدرّب الذراعين والكتفين والجذع."
+      },
+      "steps": {
+        "en": [
+          "Stand in an athletic stance holding one rope end in each hand.",
+          "Brace your core and bend your knees slightly.",
+          "Create alternating or double waves with the ropes.",
+          "Keep the movement continuous for the full interval."
+        ],
+        "fr": [
+          "Adoptez une position athlétique avec une extrémité de corde dans chaque main.",
+          "Gainez le tronc et fléchissez légèrement les genoux.",
+          "Créez des vagues alternées ou simultanées avec les cordes.",
+          "Gardez le mouvement continu pendant tout l'intervalle."
+        ],
+        "ar": [
+          "قف في وضعية رياضية ممسكًا بطرفي الحبل.",
+          "شد الجذع واثنِ الركبتين قليلًا.",
+          "اصنع موجات متبادلة أو مزدوجة بالحبال.",
+          "حافظ على الحركة مستمرة طوال الفترة المحددة."
+        ]
+      }
+    },
+    {
+      "id": "box-jumps-cardio",
+      "name": {
+        "en": "Box Jumps",
+        "fr": "Sauts sur box",
+        "ar": "قفزات الصندوق"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=BOX%20JUMPS",
+      "description": {
+        "en": "Repeated box jumps build explosive conditioning and lower-body power.",
+        "fr": "Les sauts répétés sur box développent la condition physique explosive et la puissance des jambes.",
+        "ar": "تطوّر قفزات الصندوق المتكررة اللياقة الانفجارية وقوة الجزء السفلي."
+      },
+      "steps": {
+        "en": [
+          "Stand facing the box with enough room to jump safely.",
+          "Dip slightly and swing your arms.",
+          "Jump onto the box and absorb the landing softly.",
+          "Step down under control and repeat."
+        ],
+        "fr": [
+          "Placez-vous face à la box avec assez d'espace pour sauter en sécurité.",
+          "Fléchissez légèrement et balancez les bras.",
+          "Sautez sur la box et amortissez l'atterrissage.",
+          "Redescendez avec contrôle puis recommencez."
+        ],
+        "ar": [
+          "قف أمام الصندوق مع مساحة آمنة للقفز.",
+          "انخفض قليلًا وحرك الذراعين.",
+          "اقفز على الصندوق وامتص الهبوط بهدوء.",
+          "انزل بتحكم ثم كرر."
+        ]
+      }
+    },
+    {
+      "id": "stair-climber",
+      "name": {
+        "en": "Stair Climber",
+        "fr": "Escalier mécanique",
+        "ar": "جهاز صعود الدرج"
+      },
+      "image": "https://via.placeholder.com/900x500/141b24/6ee7b7?text=STAIR%20CLIMBER",
+      "description": {
+        "en": "The stair climber provides steady cardio while challenging the legs and glutes.",
+        "fr": "L'escalier mécanique apporte un cardio régulier tout en sollicitant les jambes et les fessiers.",
+        "ar": "يوفر جهاز صعود الدرج كارديو ثابتًا مع تحدٍ جيد للساقين والمؤخرة."
+      },
+      "steps": {
+        "en": [
+          "Step onto the machine and find a comfortable pace.",
+          "Keep your chest upright instead of leaning heavily on the rails.",
+          "Drive through each step with full foot contact.",
+          "Maintain a steady rhythm for the chosen duration."
+        ],
+        "fr": [
+          "Montez sur la machine et trouvez un rythme confortable.",
+          "Gardez la poitrine droite au lieu de vous appuyer fortement sur les poignées.",
+          "Poussez sur chaque marche avec tout le pied.",
+          "Conservez un rythme stable pendant la durée prévue."
+        ],
+        "ar": [
+          "اصعد على الجهاز واختر وتيرة مريحة.",
+          "أبقِ الصدر مستقيمًا بدل الاتكاء الشديد على المقابض.",
+          "ادفع بكل القدم في كل خطوة.",
+          "حافظ على إيقاع ثابت طوال المدة المحددة."
         ]
       }
     }

@@ -32,7 +32,16 @@ export default function ExerciseListScreen({ navigation, route }) {
             onPress={() => navigation.navigate('ExerciseDetail', { exercise: item })}
             style={({ pressed }) => [styles.card, pressed && styles.pressed]}
           >
-            <Image source={{ uri: item.image }} style={styles.image} />
+            <Image
+              source={{ uri: item.image }}
+              style={styles.image}
+              resizeMode="cover"
+              defaultSource={{
+                uri: `https://via.placeholder.com/900x500/141b24/6ee7b7?text=${encodeURIComponent(
+                  getLocalizedText(item.name, language).toUpperCase()
+                )}`,
+              }}
+            />
             <View style={styles.cardBody}>
               <Text style={[styles.exerciseName, textStyle]}>{getLocalizedText(item.name, language)}</Text>
               <Text style={[styles.exerciseDescription, textStyle]}>
@@ -82,8 +91,9 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 180,
+    height: 200,
     backgroundColor: theme.colors.surfaceSoft,
+    resizeMode: 'cover',
   },
   cardBody: {
     padding: theme.spacing.lg,

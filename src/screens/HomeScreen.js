@@ -5,6 +5,19 @@ import { theme } from '../constants/theme';
 import { getExerciseCountLabel, LANGUAGE_OPTIONS } from '../constants/translations';
 import { useLanguage } from '../context/LanguageContext';
 
+const MUSCLE_META = {
+  biceps: { emoji: '💪', color: '#E63946' },
+  triceps: { emoji: '🦾', color: '#FF6B35' },
+  chest: { emoji: '🫁', color: '#4CC9F0' },
+  back: { emoji: '🔙', color: '#7209B7' },
+  shoulders: { emoji: '🏋️', color: '#F72585' },
+  abs: { emoji: '🔥', color: '#4361EE' },
+  forearms: { emoji: '✊', color: '#06D6A0' },
+  legs: { emoji: '🦵', color: '#FFB703' },
+  calves: { emoji: '🦿', color: '#FB8500' },
+  cardio: { emoji: '❤️', color: '#EF233C' },
+};
+
 export default function HomeScreen({ navigation }) {
   const { isRTL, language, t } = useLanguage();
   const muscleKeys = Object.keys(exercises);
@@ -14,12 +27,17 @@ export default function HomeScreen({ navigation }) {
     textAlign: isRTL ? 'right' : 'left',
     writingDirection: isRTL ? 'rtl' : 'ltr',
   };
+  const cardTextStyle = {
+    writingDirection: isRTL ? 'rtl' : 'ltr',
+  };
 
   return (
     <SafeAreaView style={styles.safeArea} edges={['left', 'right', 'bottom']}>
       <FlatList
         data={muscleKeys}
+        numColumns={2}
         keyExtractor={(item) => item}
+        columnWrapperStyle={{ gap: theme.spacing.sm }}
         contentContainerStyle={styles.contentContainer}
         ListHeaderComponent={
           <View style={styles.headerCard}>
@@ -41,24 +59,26 @@ export default function HomeScreen({ navigation }) {
             </Pressable>
           </View>
         }
-        renderItem={({ item }) => (
-          <Pressable
-            onPress={() => navigation.navigate('ExerciseList', { muscleKey: item })}
-            style={({ pressed }) => [
-              styles.groupCard,
-              isRTL && styles.rowReverse,
-              pressed && styles.pressed,
-            ]}
-          >
-            <View style={styles.groupTextWrap}>
-              <Text style={[styles.groupTitle, textStyle]}>{t(`muscleGroups.${item}`)}</Text>
-              <Text style={[styles.groupCount, textStyle]}>
+        renderItem={({ item }) => {
+          const meta = MUSCLE_META[item] || { emoji: '🏋️', color: theme.colors.primary };
+
+          return (
+            <Pressable
+              onPress={() => navigation.navigate('ExerciseList', { muscleKey: item })}
+              style={({ pressed }) => [
+                styles.groupCard,
+                { borderColor: meta.color },
+                pressed && styles.pressed,
+              ]}
+            >
+              <Text style={styles.groupEmoji}>{meta.emoji}</Text>
+              <Text style={[styles.groupTitle, cardTextStyle]}>{t(`muscleGroups.${item}`)}</Text>
+              <Text style={[styles.groupCount, cardTextStyle]}>
                 {getExerciseCountLabel(language, exercises[item].length)}
               </Text>
-            </View>
-            <Text style={styles.groupArrow}>{isRTL ? '<' : '>'}</Text>
-          </Pressable>
-        )}
+            </Pressable>
+          );
+        }}
       />
     </SafeAreaView>
   );
@@ -71,7 +91,7 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     padding: theme.spacing.lg,
-    gap: theme.spacing.md,
+    gap: theme.spacing.sm,
   },
   headerCard: {
     backgroundColor: theme.colors.surface,
@@ -114,43 +134,36 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   groupCard: {
+    flex: 1,
     backgroundColor: theme.colors.surface,
     borderRadius: theme.radius.md,
-    paddingHorizontal: theme.spacing.lg,
-    paddingVertical: theme.spacing.lg,
-    borderWidth: 1,
-    borderColor: theme.colors.border,
-    flexDirection: 'row',
+    paddingVertical: theme.spacing.xl,
+    paddingHorizontal: theme.spacing.md,
+    borderWidth: 1.5,
     alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: theme.spacing.md,
+    justifyContent: 'center',
+    gap: theme.spacing.xs,
+    minHeight: 130,
+    marginBottom: theme.spacing.sm,
   },
-  rowReverse: {
-    flexDirection: 'row-reverse',
-  },
-  groupTextWrap: {
-    flex: 1,
-    gap: 4,
+  groupEmoji: {
+    fontSize: 34,
   },
   groupTitle: {
     color: theme.colors.text,
-    fontSize: 20,
+    fontSize: 15,
     fontWeight: '800',
+    textAlign: 'center',
   },
   groupCount: {
     color: theme.colors.muted,
-    fontSize: 14,
-  },
-  groupArrow: {
-    color: theme.colors.primary,
-    fontSize: 26,
-    fontWeight: '700',
-    marginStart: theme.spacing.md,
+    fontSize: 12,
+    textAlign: 'center',
   },
   alignEnd: {
     alignSelf: 'flex-end',
   },
   pressed: {
-    opacity: 0.9,
+    opacity: 0.85,
   },
 });

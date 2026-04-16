@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 260,
+    height: 280,
     borderRadius: theme.radius.lg,
     backgroundColor: theme.colors.surfaceSoft,
   },
