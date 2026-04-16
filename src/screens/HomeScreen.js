@@ -1,84 +1,132 @@
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import exercises from '../data/exercises.json';
 import { theme } from '../constants/theme';
 import { getExerciseCountLabel, LANGUAGE_OPTIONS } from '../constants/translations';
 import { useLanguage } from '../context/LanguageContext';
+import exercises from '../data/exercises.json';
 
-const MUSCLE_META = {
-  biceps: { emoji: '💪', color: '#E63946' },
-  triceps: { emoji: '🦾', color: '#FF6B35' },
-  chest: { emoji: '🫁', color: '#4CC9F0' },
-  back: { emoji: '🔙', color: '#7209B7' },
-  shoulders: { emoji: '🏋️', color: '#F72585' },
-  abs: { emoji: '🔥', color: '#4361EE' },
-  forearms: { emoji: '✊', color: '#06D6A0' },
-  legs: { emoji: '🦵', color: '#FFB703' },
-  calves: { emoji: '🦿', color: '#FB8500' },
-  cardio: { emoji: '❤️', color: '#EF233C' },
+const HOME_COPY = {
+  en: {
+    kicker: 'ELITE TRAINING',
+    title: 'TRAIN HARD',
+    subtitle: (exerciseCount, muscleCount) => `${exerciseCount} exercises • ${muscleCount} muscle groups`,
+    sectionTitle: 'MUSCLE MAP',
+    sectionHint: 'Pick your target and hit the library.',
+    languageLabel: 'Language',
+    changeLanguage: 'Change language',
+    openLabel: 'Open group',
+  },
+  fr: {
+    kicker: 'ENTRAINEMENT ELITE',
+    title: 'ENTRAINE-TOI DUR',
+    subtitle: (exerciseCount, muscleCount) => `${exerciseCount} exercices • ${muscleCount} groupes musculaires`,
+    sectionTitle: 'CARTE MUSCULAIRE',
+    sectionHint: 'Choisis ta cible et lance la séance.',
+    languageLabel: 'Langue',
+    changeLanguage: 'Changer la langue',
+    openLabel: 'Ouvrir',
+  },
+  ar: {
+    kicker: 'تدريب النخبة',
+    title: 'تدرّب بقوة',
+    subtitle: (exerciseCount, muscleCount) => `${exerciseCount} تمرين • ${muscleCount} مجموعات عضلية`,
+    sectionTitle: 'خريطة العضلات',
+    sectionHint: 'اختر هدفك وابدأ الهجوم.',
+    languageLabel: 'اللغة',
+    changeLanguage: 'تغيير اللغة',
+    openLabel: 'افتح المجموعة',
+  },
 };
 
 export default function HomeScreen({ navigation }) {
   const { isRTL, language, t } = useLanguage();
-  const muscleKeys = Object.keys(exercises);
-  const currentLanguage = LANGUAGE_OPTIONS.find((item) => item.code === language)?.label || 'English';
+  const copy = HOME_COPY[language] || HOME_COPY.en;
+  const muscleCards = Object.entries(exercises).map(([key, list]) => ({
+    key,
+    count: list.length,
+    meta: theme.muscles[key] || theme.muscles.biceps,
+  }));
+  const totalExercises = muscleCards.reduce((sum, item) => sum + item.count, 0);
+  const selectedLanguage =
+    LANGUAGE_OPTIONS.find((item) => item.code === language)?.label || LANGUAGE_OPTIONS[0].label;
 
   const textStyle = {
     textAlign: isRTL ? 'right' : 'left',
     writingDirection: isRTL ? 'rtl' : 'ltr',
   };
-  const cardTextStyle = {
-    writingDirection: isRTL ? 'rtl' : 'ltr',
-  };
 
   return (
-    <SafeAreaView style={styles.safeArea} edges={['left', 'right', 'bottom']}>
+    <SafeAreaView style={styles.safeArea} edges={['top', 'left', 'right', 'bottom']}>
       <FlatList
-        data={muscleKeys}
+        data={muscleCards}
+        keyExtractor={(item) => item.key}
         numColumns={2}
-        keyExtractor={(item) => item}
-        columnWrapperStyle={{ gap: theme.spacing.sm }}
+        showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.contentContainer}
+        columnWrapperStyle={styles.columnWrapper}
         ListHeaderComponent={
-          <View style={styles.headerCard}>
-            <Text style={[styles.languageText, textStyle]}>
-              {t('selectedLanguage')}: {currentLanguage}
-            </Text>
-            <Text style={[styles.title, textStyle]}>{t('pickMuscle')}</Text>
-            <Text style={[styles.subtitle, textStyle]}>{t('homeHint')}</Text>
+          <View>
+            <View style={styles.heroCard}>
+              <View style={styles.heroGlowPrimary} />
+              <View style={styles.heroGlowAccent} />
 
-            <Pressable
-              onPress={() => navigation.navigate('Language')}
-              style={({ pressed }) => [
-                styles.changeLanguageButton,
-                isRTL && styles.alignEnd,
-                pressed && styles.pressed,
-              ]}
-            >
-              <Text style={styles.changeLanguageText}>{t('changeLanguage')}</Text>
-            </Pressable>
+              <Text style={[styles.heroKicker, textStyle]}>{copy.kicker}</Text>
+              <Text style={[styles.heroTitle, textStyle]}>{copy.title}</Text>
+              <Text style={[styles.heroSubtitle, textStyle]}>
+                {copy.subtitle(totalExercises, muscleCards.length)}
+              </Text>
+
+              <View style={[styles.heroFooter, isRTL && styles.rowReverse]}>
+                <View style={styles.languagePill}>
+                  <Text style={styles.languagePillText}>
+                    {copy.languageLabel}: {selectedLanguage}
+                  </Text>
+                </View>
+
+                <Pressable
+                  onPress={() => navigation.navigate('Language')}
+                  style={({ pressed }) => [styles.heroButton, pressed && styles.heroButtonPressed]}
+                >
+                  <Text style={styles.heroButtonText}>{copy.changeLanguage}</Text>
+                </Pressable>
+              </View>
+            </View>
+
+            <View style={styles.sectionHeader}>
+              <Text style={[styles.sectionTitle, textStyle]}>{copy.sectionTitle}</Text>
+              <Text style={[styles.sectionHint, textStyle]}>{copy.sectionHint}</Text>
+            </View>
           </View>
         }
-        renderItem={({ item }) => {
-          const meta = MUSCLE_META[item] || { emoji: '🏋️', color: theme.colors.primary };
+        renderItem={({ item }) => (
+          <Pressable
+            onPress={() => navigation.navigate('ExerciseList', { muscleKey: item.key })}
+            style={({ pressed }) => [
+              styles.card,
+              {
+                borderColor: item.meta.color,
+                shadowColor: item.meta.color,
+              },
+              pressed && styles.cardPressed,
+            ]}
+          >
+            <View style={[styles.cardTint, { backgroundColor: item.meta.tint }]} />
 
-          return (
-            <Pressable
-              onPress={() => navigation.navigate('ExerciseList', { muscleKey: item })}
-              style={({ pressed }) => [
-                styles.groupCard,
-                { borderColor: meta.color },
-                pressed && styles.pressed,
-              ]}
-            >
-              <Text style={styles.groupEmoji}>{meta.emoji}</Text>
-              <Text style={[styles.groupTitle, cardTextStyle]}>{t(`muscleGroups.${item}`)}</Text>
-              <Text style={[styles.groupCount, cardTextStyle]}>
-                {getExerciseCountLabel(language, exercises[item].length)}
-              </Text>
-            </Pressable>
-          );
-        }}
+            <View style={styles.cardTopRow}>
+              <View style={[styles.emojiBadge, { borderColor: item.meta.color }]}>
+                <Text style={styles.cardEmoji}>{item.meta.emoji}</Text>
+              </View>
+
+              <View style={[styles.countBadge, { backgroundColor: item.meta.tint }]}>
+                <Text style={[styles.countBadgeText, { color: item.meta.color }]}>{item.count}</Text>
+              </View>
+            </View>
+
+            <Text style={[styles.cardTitle, textStyle]}>{t(`muscleGroups.${item.key}`)}</Text>
+            <Text style={[styles.cardCount, textStyle]}>{getExerciseCountLabel(language, item.count)}</Text>
+            <Text style={[styles.cardAction, textStyle]}>{copy.openLabel}</Text>
+          </Pressable>
+        )}
       />
     </SafeAreaView>
   );
@@ -90,80 +138,183 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.background,
   },
   contentContainer: {
-    padding: theme.spacing.lg,
-    gap: theme.spacing.sm,
+    paddingHorizontal: theme.spacing.lg,
+    paddingTop: theme.spacing.md,
+    paddingBottom: theme.spacing.xxxl,
   },
-  headerCard: {
+  columnWrapper: {
+    gap: theme.spacing.md,
+  },
+  heroCard: {
+    position: 'relative',
+    overflow: 'hidden',
     backgroundColor: theme.colors.surface,
-    borderRadius: theme.radius.lg,
+    borderRadius: theme.radius.xl,
     padding: theme.spacing.xl,
     borderWidth: 1,
     borderColor: theme.colors.border,
-    marginBottom: theme.spacing.md,
+    marginBottom: theme.spacing.xl,
+    ...theme.shadows.card,
   },
-  languageText: {
+  heroGlowPrimary: {
+    position: 'absolute',
+    top: -10,
+    right: -30,
+    width: 180,
+    height: 180,
+    borderRadius: 90,
+    backgroundColor: theme.colors.primaryGlow,
+  },
+  heroGlowAccent: {
+    position: 'absolute',
+    bottom: -60,
+    left: -20,
+    width: 160,
+    height: 160,
+    borderRadius: 80,
+    backgroundColor: theme.colors.accentSoft,
+  },
+  heroKicker: {
     color: theme.colors.primary,
-    fontSize: 14,
-    fontWeight: '700',
-    marginBottom: theme.spacing.sm,
-  },
-  title: {
-    color: theme.colors.text,
-    fontSize: 28,
+    fontSize: theme.typography.micro,
     fontWeight: '800',
+    letterSpacing: 2,
     marginBottom: theme.spacing.sm,
   },
-  subtitle: {
-    color: theme.colors.muted,
-    fontSize: 16,
-    lineHeight: 24,
-    marginBottom: theme.spacing.lg,
+  heroTitle: {
+    color: theme.colors.text,
+    fontSize: theme.typography.hero,
+    lineHeight: 46,
+    fontWeight: '900',
+    letterSpacing: -1.5,
+    marginBottom: theme.spacing.sm,
   },
-  changeLanguageButton: {
-    alignSelf: 'flex-start',
-    backgroundColor: theme.colors.primarySoft,
-    borderRadius: theme.radius.sm,
-    paddingHorizontal: theme.spacing.lg,
+  heroSubtitle: {
+    color: theme.colors.secondaryText,
+    fontSize: theme.typography.body,
+    lineHeight: 24,
+    maxWidth: '85%',
+  },
+  heroFooter: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: theme.spacing.md,
+    marginTop: theme.spacing.xl,
+  },
+  rowReverse: {
+    flexDirection: 'row-reverse',
+  },
+  languagePill: {
+    flex: 1,
+    borderRadius: theme.radius.pill,
+    paddingHorizontal: theme.spacing.md,
     paddingVertical: theme.spacing.sm,
+    backgroundColor: theme.colors.surfaceAlt,
     borderWidth: 1,
     borderColor: theme.colors.border,
   },
-  changeLanguageText: {
-    color: theme.colors.primary,
-    fontSize: 15,
+  languagePillText: {
+    color: theme.colors.text,
+    fontSize: theme.typography.caption,
     fontWeight: '700',
   },
-  groupCard: {
+  heroButton: {
+    borderRadius: theme.radius.pill,
+    paddingHorizontal: theme.spacing.lg,
+    paddingVertical: theme.spacing.sm,
+    backgroundColor: theme.colors.primary,
+    ...theme.shadows.glow,
+  },
+  heroButtonPressed: {
+    opacity: 0.94,
+    transform: [{ scale: 0.96 }],
+  },
+  heroButtonText: {
+    color: theme.colors.black,
+    fontSize: theme.typography.caption,
+    fontWeight: '900',
+    letterSpacing: 0.3,
+  },
+  sectionHeader: {
+    marginBottom: theme.spacing.lg,
+    gap: theme.spacing.xs,
+  },
+  sectionTitle: {
+    color: theme.colors.text,
+    fontSize: 13,
+    fontWeight: '800',
+    letterSpacing: 2,
+  },
+  sectionHint: {
+    color: theme.colors.secondaryText,
+    fontSize: theme.typography.body,
+  },
+  card: {
+    position: 'relative',
     flex: 1,
+    overflow: 'hidden',
+    minHeight: 192,
+    borderRadius: theme.radius.lg,
+    padding: theme.spacing.lg,
+    marginBottom: theme.spacing.md,
     backgroundColor: theme.colors.surface,
-    borderRadius: theme.radius.md,
-    paddingVertical: theme.spacing.xl,
-    paddingHorizontal: theme.spacing.md,
-    borderWidth: 1.5,
+    borderWidth: 1,
+    ...theme.shadows.card,
+  },
+  cardPressed: {
+    opacity: 0.94,
+    transform: [{ scale: 0.96 }],
+  },
+  cardTint: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  cardTopRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: theme.spacing.xl,
+  },
+  emojiBadge: {
+    width: 52,
+    height: 52,
+    borderRadius: 20,
     alignItems: 'center',
     justifyContent: 'center',
-    gap: theme.spacing.xs,
-    minHeight: 130,
-    marginBottom: theme.spacing.sm,
+    backgroundColor: theme.colors.surfaceAlt,
+    borderWidth: 1,
   },
-  groupEmoji: {
-    fontSize: 34,
+  cardEmoji: {
+    fontSize: 24,
   },
-  groupTitle: {
-    color: theme.colors.text,
-    fontSize: 15,
+  countBadge: {
+    borderRadius: theme.radius.pill,
+    paddingHorizontal: theme.spacing.sm,
+    paddingVertical: 6,
+    borderWidth: 1,
+    borderColor: theme.colors.border,
+  },
+  countBadgeText: {
+    fontSize: theme.typography.caption,
     fontWeight: '800',
-    textAlign: 'center',
   },
-  groupCount: {
-    color: theme.colors.muted,
-    fontSize: 12,
-    textAlign: 'center',
+  cardTitle: {
+    color: theme.colors.text,
+    fontSize: 20,
+    lineHeight: 24,
+    fontWeight: '900',
+    marginBottom: theme.spacing.xs,
   },
-  alignEnd: {
-    alignSelf: 'flex-end',
+  cardCount: {
+    color: theme.colors.secondaryText,
+    fontSize: theme.typography.body,
+    lineHeight: 22,
+    marginBottom: theme.spacing.lg,
   },
-  pressed: {
-    opacity: 0.85,
+  cardAction: {
+    color: theme.colors.text,
+    fontSize: theme.typography.caption,
+    fontWeight: '800',
+    letterSpacing: 1.2,
   },
 });

@@ -29,15 +29,18 @@ export default function AppNavigator() {
   return (
     <NavigationContainer theme={navigationTheme}>
       <Stack.Navigator
-        initialRouteName="Language"
+        initialRouteName="Home"
         screenOptions={{
+          animation: 'fade_from_bottom',
           headerStyle: {
             backgroundColor: theme.colors.surface,
           },
           headerTintColor: theme.colors.text,
           headerShadowVisible: false,
+          headerBackTitleVisible: false,
           headerTitleStyle: {
-            fontWeight: '700',
+            fontWeight: '800',
+            letterSpacing: 0.3,
           },
           contentStyle: {
             backgroundColor: theme.colors.background,
@@ -55,6 +58,7 @@ export default function AppNavigator() {
           name="Home"
           component={HomeScreen}
           options={{
+            headerShown: false,
             title: t('homeTitle'),
           }}
         />

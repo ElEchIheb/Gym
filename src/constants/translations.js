@@ -1,6 +1,6 @@
 export const LANGUAGE_OPTIONS = [
   { code: 'en', label: 'English' },
-  { code: 'fr', label: 'Français' },
+  { code: 'fr', label: 'Francais' },
   { code: 'ar', label: 'العربية' },
 ];
 
@@ -8,17 +8,17 @@ export const SUPPORTED_LANGUAGES = LANGUAGE_OPTIONS.map((item) => item.code);
 
 const translations = {
   en: {
-    appName: 'Simple Gym App',
+    appName: 'Train Hard',
     chooseLanguage: 'Choose your language',
-    languageHint: 'Pick a language before entering the app. You can change it again later.',
-    continue: 'Continue',
-    homeTitle: 'Home',
-    pickMuscle: 'Choose a muscle group',
-    homeHint: 'Tap a group to see simple exercises and easy instructions.',
+    languageHint: 'Set your language before you enter the training floor. You can change it again any time.',
+    continue: 'Enter the app',
+    homeTitle: 'Train Hard',
+    pickMuscle: 'Choose your target',
+    homeHint: 'Hit a muscle group to unlock live media drills and clean coaching cues.',
     changeLanguage: 'Change language',
-    exerciseListHint: 'Tap any exercise to open a bigger image and a short explanation.',
-    aboutExercise: 'Short description',
-    howToDoIt: 'How to do it',
+    exerciseListHint: 'Tap an exercise to open the immersive detail view with autoplay media and step-by-step guidance.',
+    aboutExercise: 'Why it hits',
+    howToDoIt: 'Execution',
     selectedLanguage: 'Selected language',
     emptyExercises: 'No exercises found.',
     muscleGroups: {
@@ -35,25 +35,25 @@ const translations = {
     },
   },
   fr: {
-    appName: 'Application Gym Simple',
+    appName: 'Train Hard',
     chooseLanguage: 'Choisissez votre langue',
-    languageHint: "Choisissez une langue avant d'entrer dans l'application. Vous pourrez la changer plus tard.",
-    continue: 'Continuer',
-    homeTitle: 'Accueil',
-    pickMuscle: 'Choisissez un groupe musculaire',
-    homeHint: 'Touchez un groupe pour voir des exercices simples et des consignes faciles.',
-    changeLanguage: 'Changer de langue',
-    exerciseListHint: 'Touchez un exercice pour voir une image plus grande et une courte explication.',
-    aboutExercise: 'Courte description',
-    howToDoIt: 'Comment le faire',
-    selectedLanguage: 'Langue choisie',
-    emptyExercises: 'Aucun exercice trouvé.',
+    languageHint: 'Choisissez votre langue avant dentrer dans la zone dentrainement. Vous pouvez la modifier a tout moment.',
+    continue: 'Entrer dans lapp',
+    homeTitle: 'Train Hard',
+    pickMuscle: 'Choisissez votre cible',
+    homeHint: 'Touchez un groupe musculaire pour ouvrir des exercices avec media live et consignes claires.',
+    changeLanguage: 'Changer la langue',
+    exerciseListHint: 'Touchez un exercice pour ouvrir une vue detaillee avec media automatique et etapes guidees.',
+    aboutExercise: 'Pourquoi ca marche',
+    howToDoIt: 'Execution',
+    selectedLanguage: 'Langue selectionnee',
+    emptyExercises: 'Aucun exercice trouve.',
     muscleGroups: {
       biceps: 'Biceps',
       triceps: 'Triceps',
       chest: 'Poitrine',
       back: 'Dos',
-      shoulders: 'Épaules',
+      shoulders: 'Epaules',
       abs: 'Abdos',
       forearms: 'Avant-bras',
       legs: 'Jambes',
@@ -62,17 +62,17 @@ const translations = {
     },
   },
   ar: {
-    appName: 'تطبيق الجيم البسيط',
+    appName: 'تدرّب بقوة',
     chooseLanguage: 'اختر لغتك',
-    languageHint: 'اختر اللغة قبل الدخول إلى التطبيق. يمكنك تغييرها لاحقًا في أي وقت.',
-    continue: 'متابعة',
-    homeTitle: 'الرئيسية',
-    pickMuscle: 'اختر مجموعة عضلية',
-    homeHint: 'اضغط على أي مجموعة لرؤية تمارين بسيطة وتعليمات سهلة.',
+    languageHint: 'حدد لغتك قبل دخول منطقة التدريب. يمكنك تغييرها في اي وقت.',
+    continue: 'ادخل التطبيق',
+    homeTitle: 'تدرّب بقوة',
+    pickMuscle: 'اختر هدفك',
+    homeHint: 'اضغط على مجموعة عضلية لفتح تمارين بوسائط حية وتعليمات واضحة.',
     changeLanguage: 'تغيير اللغة',
-    exerciseListHint: 'اضغط على أي تمرين لعرض صورة أكبر وشرح قصير.',
-    aboutExercise: 'وصف قصير',
-    howToDoIt: 'طريقة الأداء',
+    exerciseListHint: 'اضغط على التمرين لفتح عرض تفصيلي مع تشغيل تلقائي للوسائط وخطوات واضحة.',
+    aboutExercise: 'لماذا يعمل',
+    howToDoIt: 'التنفيذ',
     selectedLanguage: 'اللغة المختارة',
     emptyExercises: 'لا توجد تمارين.',
     muscleGroups: {
@@ -80,7 +80,7 @@ const translations = {
       triceps: 'الترايسبس',
       chest: 'الصدر',
       back: 'الظهر',
-      shoulders: 'الأكتاف',
+      shoulders: 'الاكتاف',
       abs: 'البطن',
       forearms: 'الساعدان',
       legs: 'الساقان',
@@ -117,7 +117,7 @@ export function getExerciseCountLabel(language, count) {
   }
 
   if (language === 'ar') {
-    return `${count} تمارين`;
+    return `${count} تمرين`;
   }
 
   return `${count} exercises`;
